@@ -10,10 +10,7 @@ class Config:
     # Default: Parent directory of webviewer (C:\scripts if webviewer is in C:\scripts\webviewer)
     SCRIPTS_BASE_DIR = Path(__file__).parent.parent
     
-    # Alternative configurations (uncomment and modify as needed):
-    # SCRIPTS_BASE_DIR = Path("C:/scripts")  # Absolute path
-    # SCRIPTS_BASE_DIR = Path("D:/my_projects/blue_iris")  # Different drive
-    # SCRIPTS_BASE_DIR = Path.home() / "Documents" / "scripts"  # User documents
+    # Alternative configurations can be set here if needed.
     
     # Flask Configuration
     DEBUG = True
