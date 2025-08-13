@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Iris Alert Logs</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f5;
+            --surface-color: white;
+            --surface-elevated: white;
+            --primary-color: #2c3e50;
+            --primary-dark: #34495e;
+            --text-color: #333;
+            --text-secondary: #666;
+            --text-tertiary: #888;
+            --border-color: #ddd;
+            --hover-color: #f8f9fa;
+            --selected-color: #e3f2fd;
+            --error-color: #f44336;
+            --success-color: #4caf50;
+            --shadow: rgba(0,0,0,0.1);
+            --shadow-elevated: rgba(0,0,0,0.15);
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #1a1a1a;
+            --surface-color: #2d2d2d;
+            --surface-elevated: #3d3d3d;
+            --primary-color: #4a90e2;
+            --primary-dark: #357abd;
+            --text-color: #e0e0e0;
+            --text-secondary: #b0b0b0;
+            --text-tertiary: #888;
+            --border-color: #444;
+            --hover-color: #404040;
+            --selected-color: #1a237e;
+            --error-color: #ef5350;
+            --success-color: #66bb6a;
+            --shadow: rgba(0,0,0,0.3);
+            --shadow-elevated: rgba(0,0,0,0.4);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--bg-color);
+            color: var(--text-color);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.3s ease;
+        }
+
+        .header {
+            background: var(--primary-color);
+            color: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 4px var(--shadow);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .header-controls {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .dark-mode-toggle {
+            background: none;
+            border: 1px solid rgba(255,255,255,0.3);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .dark-mode-toggle:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .stats-bar {
+            background: var(--primary-dark);
+            color: white;
+            padding: 0.5rem 2rem;
+            font-size: 0.9rem;
+        }
+
+        .controls-bar {
+            background: var(--surface-elevated);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 2rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .camera-filter {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .camera-filter select {
+            padding: 0.5rem;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background: var(--surface-color);
+            color: var(--text-color);
+        }
+
+        .main-container {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .sidebar {
+            width: 400px;
+            background: var(--surface-color);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar-header {
+            padding: 1rem;
+            background: var(--surface-elevated);
+            border-bottom: 1px solid var(--border-color);
+            font-weight: 600;
+        }
+
+        .alerts-list {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .alert-item {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .alert-item:hover {
+            background: var(--hover-color);
+        }
+
+        .alert-item.selected {
+            background: var(--selected-color);
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .alert-item.failed {
+            border-left: 4px solid var(--error-color);
+        }
+
+        .alert-status {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .alert-camera {
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .alert-time {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .alert-handle {
+            color: var(--text-tertiary);
+            font-size: 0.8rem;
+            font-family: monospace;
+        }
+
+        .alert-error {
+            color: var(--error-color);
+            font-size: 0.8rem;
+            margin-top: 0.25rem;
+            font-style: italic;
+        }
+
+        .content-area {
+            flex: 1;
+            background: var(--surface-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .media-controls {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .media-selector {
+            padding: 0.5rem;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background: var(--surface-color);
+            color: var(--text-color);
+            min-width: 150px;
+        }
+
+        .media-container {
+            max-width: 100%;
+            max-height: 70vh;
+            text-align: center;
+        }
+
+        .media-container img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px var(--shadow-elevated);
+        }
+
+        .alert-details {
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .alert-details h3 {
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .detail-row {
+            margin: 0.25rem 0;
+            color: var(--text-secondary);
+        }
+
+        .placeholder {
+            color: var(--text-tertiary);
+            font-style: italic;
+        }
+
+        .loading {
+            color: var(--text-secondary);
+        }
+
+        .error {
+            color: var(--error-color);
+            background: var(--surface-elevated);
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem;
+            border: 1px solid var(--error-color);
+        }
+
+        .refresh-btn {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 1rem;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 4px 12px var(--shadow-elevated);
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+
+        .refresh-btn:hover {
+            background: var(--primary-dark);
+            transform: rotate(180deg);
+        }
+
+        .download-btn {
+            background: var(--success-color);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            opacity: 0.8;
+        }
+
+        /* Scrollbar styling for dark mode */
+        [data-theme="dark"] ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        [data-theme="dark"] ::-webkit-scrollbar-track {
+            background: var(--surface-color);
+        }
+
+        [data-theme="dark"] ::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 4px;
+        }
+
+        [data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+            background: var(--text-tertiary);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎥 Blue Iris Alert Logs</h1>
+        <div class="header-controls">
+            <button class="dark-mode-toggle" onclick="toggleDarkMode()" id="themeToggle">
+                🌙 Dark Mode
+            </button>
+        </div>
+    </div>
+    
+    <div class="stats-bar" id="statsBar">
+        Loading statistics...
+    </div>
+
+    <div class="controls-bar">
+        <div class="camera-filter">
+            <label for="cameraSelect">Camera:</label>
+            <select id="cameraSelect" onchange="filterByCamera()">
+                <option value="">All Cameras</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                Recent Alerts
+            </div>
+            <div class="alerts-list" id="alertsList">
+                <div class="loading" style="padding: 2rem; text-align: center;">
+                    Loading alerts...
+                </div>
+            </div>
+        </div>
+
+        <div class="content-area" id="contentArea">
+            <div class="placeholder">
+                Select an alert from the list to view its media
+            </div>
+        </div>
+    </div>
+
+    <button class="refresh-btn" onclick="loadAlerts()" title="Refresh">
+        🔄
+    </button>
+
+    <script>
+        let currentAlerts = [];
+        let filteredAlerts = [];
+        let selectedAlertId = null;
+        let currentMediaUrls = [];
+        let currentMediaType = 'gif';
+
+        // Initialize theme
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        updateThemeButton();
+
+        // Load alerts on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadAlerts();
+            loadStats();
+        });
+
+        function toggleDarkMode() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeButton();
+        }
+
+        function updateThemeButton() {
+            const themeToggle = document.getElementById('themeToggle');
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            themeToggle.textContent = isDark ? '☀️ Light Mode' : '🌙 Dark Mode';
+        }
+
+        async function loadAlerts() {
+            try {
+                const response = await fetch('/api/alerts?limit=50');
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                
+                currentAlerts = data.alerts;
+                updateCameraFilter();
+                filterByCamera();
+            } catch (error) {
+                document.getElementById('alertsList').innerHTML = 
+                    `<div class="error">Failed to load alerts: ${error.message}</div>`;
+            }
+        }
+
+        function updateCameraFilter() {
+            const cameraSelect = document.getElementById('cameraSelect');
+            const cameras = [...new Set(currentAlerts.map(alert => alert.camera))].sort();
+            
+            // Keep current selection
+            const currentSelection = cameraSelect.value;
+            
+            // Clear and repopulate
+            cameraSelect.innerHTML = '<option value="">All Cameras</option>';
+            cameras.forEach(camera => {
+                const option = document.createElement('option');
+                option.value = camera;
+                option.textContent = camera;
+                if (camera === currentSelection) {
+                    option.selected = true;
+                }
+                cameraSelect.appendChild(option);
+            });
+        }
+
+        function filterByCamera() {
+            const selectedCamera = document.getElementById('cameraSelect').value;
+            
+            if (!selectedCamera) {
+                filteredAlerts = [...currentAlerts];
+            } else {
+                filteredAlerts = currentAlerts.filter(alert => alert.camera === selectedCamera);
+            }
+            
+            renderAlerts();
+        }
+
+        async function loadStats() {
+            try {
+                const response = await fetch('/api/stats');
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                
+                const total = data.total_alerts || 0;
+                const successful = data.successful_alerts || 0;
+                const failed = data.failed_alerts || 0;
+                const cameras = data.unique_cameras || 0;
+                const successRate = total > 0 ? ((successful / total) * 100).toFixed(1) : '0.0';
+                
+                document.getElementById('statsBar').innerHTML = 
+                    `📊 Last 7 days: ${total} alerts • ${successful} successful • ${failed} failed • ${cameras} cameras • ${successRate}% success rate`;
+            } catch (error) {
+                document.getElementById('statsBar').innerHTML = 
+                    `⚠️ Stats unavailable: ${error.message}`;
+            }
+        }
+
+        function renderAlerts() {
+            const alertsList = document.getElementById('alertsList');
+            
+            if (filteredAlerts.length === 0) {
+                const message = document.getElementById('cameraSelect').value ? 
+                    'No alerts found for selected camera' : 'No alerts found';
+                alertsList.innerHTML = `<div class="placeholder" style="padding: 2rem; text-align: center;">${message}</div>`;
+                return;
+            }
+            
+            const alertsHtml = filteredAlerts.map(alert => {
+                const createdAt = new Date(alert.created_at).toLocaleString();
+                const statusIcon = alert.success ? '✅' : '❌';
+                const failedClass = alert.success ? '' : 'failed';
+                const selectedClass = alert.id === selectedAlertId ? 'selected' : '';
+                
+                return `
+                    <div class="alert-item ${failedClass} ${selectedClass}" onclick="selectAlert('${alert.id}')">
+                        <div class="alert-status">${statusIcon}</div>
+                        <div class="alert-camera">${alert.camera}</div>
+                        <div class="alert-time">Alert: ${alert.timestamp}</div>
+                        <div class="alert-time">Logged: ${createdAt}</div>
+                        <div class="alert-handle">${alert.alert_handle}</div>
+                        ${alert.error_message ? `<div class="alert-error">Error: ${alert.error_message}</div>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            alertsList.innerHTML = alertsHtml;
+        }
+
+        function selectAlert(alertId) {
+            selectedAlertId = alertId;
+            const alert = currentAlerts.find(a => a.id === alertId);
+            
+            if (!alert) return;
+            
+            // Update selected state in sidebar
+            renderAlerts();
+            
+            // Show alert details
+            const contentArea = document.getElementById('contentArea');
+            
+            if (!alert.success) {
+                contentArea.innerHTML = `
+                    <div class="alert-details">
+                        <h3>❌ Failed Alert</h3>
+                        <div class="detail-row"><strong>Camera:</strong> ${alert.camera}</div>
+                        <div class="detail-row"><strong>Time:</strong> ${alert.timestamp}</div>
+                        <div class="detail-row"><strong>Handle:</strong> ${alert.alert_handle}</div>
+                        <div class="detail-row" style="color: var(--error-color);"><strong>Error:</strong> ${alert.error_message}</div>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Prepare media URLs
+            currentMediaUrls = [];
+            if (alert.gif_url) {
+                currentMediaUrls.push({ type: 'gif', url: alert.gif_url, label: 'Animated GIF' });
+            }
+            if (alert.jpeg_urls && alert.jpeg_urls.length > 0) {
+                alert.jpeg_urls.forEach((url, index) => {
+                    currentMediaUrls.push({ 
+                        type: 'jpeg', 
+                        url: url, 
+                        label: `Frame ${index + 1}` 
+                    });
+                });
+            }
+            
+            if (currentMediaUrls.length === 0) {
+                contentArea.innerHTML = `
+                    <div class="alert-details">
+                        <h3>⚠️ No Media Available</h3>
+                        <div class="detail-row"><strong>Camera:</strong> ${alert.camera}</div>
+                        <div class="detail-row"><strong>Time:</strong> ${alert.timestamp}</div>
+                        <div class="detail-row"><strong>Handle:</strong> ${alert.alert_handle}</div>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Create media selector options
+            const mediaOptions = currentMediaUrls.map((media, index) => 
+                `<option value="${index}">${media.label}</option>`
+            ).join('');
+            
+            // Default to GIF if available, otherwise first item
+            const defaultIndex = currentMediaUrls.findIndex(m => m.type === 'gif');
+            const selectedIndex = defaultIndex >= 0 ? defaultIndex : 0;
+            const selectedMedia = currentMediaUrls[selectedIndex];
+            
+            contentArea.innerHTML = `
+                <div class="media-controls">
+                    <label for="mediaSelector">View:</label>
+                    <select id="mediaSelector" class="media-selector" onchange="changeMedia()">
+                        ${mediaOptions}
+                    </select>
+                    <a href="${selectedMedia.url}" target="_blank" class="download-btn" id="downloadBtn">
+                        📥 Download
+                    </a>
+                </div>
+                <div class="media-container">
+                    <img id="mediaImage" src="${selectedMedia.url}" alt="Alert Media" 
+                         onload="this.style.opacity=1" style="opacity:0; transition: opacity 0.3s;">
+                </div>
+                <div class="alert-details">
+                    <h3>${alert.camera}</h3>
+                    <div class="detail-row"><strong>Alert Time:</strong> ${alert.timestamp}</div>
+                    <div class="detail-row"><strong>Handle:</strong> ${alert.alert_handle}</div>
+                    <div class="detail-row"><strong>JPEG Count:</strong> ${alert.jpeg_count}</div>
+                </div>
+            `;
+            
+            // Set the correct option as selected
+            document.getElementById('mediaSelector').selectedIndex = selectedIndex;
+        }
+
+        function changeMedia() {
+            const selector = document.getElementById('mediaSelector');
+            const selectedIndex = parseInt(selector.value);
+            const selectedMedia = currentMediaUrls[selectedIndex];
+            
+            if (selectedMedia) {
+                const mediaImage = document.getElementById('mediaImage');
+                const downloadBtn = document.getElementById('downloadBtn');
+                
+                mediaImage.style.opacity = '0';
+                setTimeout(() => {
+                    mediaImage.src = selectedMedia.url;
+                    downloadBtn.href = selectedMedia.url;
+                }, 150);
+            }
+        }
+
+        // Auto-refresh every 30 seconds
+        setInterval(() => {
+            loadAlerts();
+            loadStats();
+        }, 30000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+# Blue Iris Alert Handler - Web Interface Requirements
+# Install with: pip install -r web_requirements.txt
+
+# Web Framework
+Flask>=3.0.0
+
+# Core Dependencies (shared with main alert handler)
+requests>=2.31.0
+python-dotenv>=1.0.0
+Pillow>=10.0.0
+opencv-python>=4.8.0
+minio>=7.1.0
+
+# Database
+psycopg2-binary>=2.9.7
+
+# Web Server (optional - for production deployment)
+# gunicorn>=21.2.0  # Uncomment for production WSGI server
+# waitress>=2.1.2   # Alternative Windows-friendly WSGI server
+
+# Development Tools (optional)
+# flask-cors>=4.0.0  # Uncomment if you need CORS support for API access

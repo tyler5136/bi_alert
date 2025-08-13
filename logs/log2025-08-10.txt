@@ -1,0 +1,2232 @@
+[2025-08-10 12:39:39.699766] 📩 Received alert:
+ ├─ Alert Handle: @-1
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 12:39:37 PM
+[2025-08-10 12:39:39.705053] ♻️ Cached session invalid; will perform fresh login
+[2025-08-10 12:39:39.742870] ✅ Logged in: 2387580120032fcb2e5d54e769846baa
+[2025-08-10 12:39:39.787586] ✅ Logged in: 1c31187d5bc61ecf30265dad5e686cac
+[2025-08-10 12:39:39.831036] ❌ Failed: No alerts found with person >= 60% in last 60s
+[2025-08-10 12:56:27.158203] 📩 Received alert:
+ ├─ Alert Handle: @72123592759555
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 12:56:21 PM
+[2025-08-10 12:56:27.163014] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 12:56:27.167291] ✅ Logged in: 4cd15259309a0ef77ba62c0569421efb
+[2025-08-10 12:56:27.174089] ✅ Using provided alert handle: @72123592759555
+[2025-08-10 12:56:27.174312] 📸 Final alert clip: @1882716034.bvr (Starts 3301214ms for 13641ms)
+[2025-08-10 12:56:27.221529] 📤 Export started
+[2025-08-10 12:56:52.226885] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_125502-125516.978.mp4
+[2025-08-10 12:56:52.227357] 🎬 Converting MP4 to GIF...
+[2025-08-10 12:57:01.820298] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_125652.gif (30 frames)
+[2025-08-10 12:57:01.824981] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 12:57:02.103260] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_125702_mid.jpg
+[2025-08-10 12:57:02.104109] 📤 Uploading main GIF to MinIO...
+[2025-08-10 12:57:03.513462] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_125652.gif
+[2025-08-10 12:57:03.513788] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_125652.gif
+[2025-08-10 12:57:03.513999] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 12:57:03.810412] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_125702_mid.jpg
+[2025-08-10 12:57:03.810775] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_125702_mid.jpg
+[2025-08-10 12:57:03.811008] 📨 Sending webhook...
+[2025-08-10 12:57:03.894933] 📨 Webhook sent: 200
+[2025-08-10 12:57:03.901660] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 12:57:03.901872] ✅ Process completed
+[2025-08-10 12:57:03.902058] 📊 Summary:
+[2025-08-10 12:57:03.902244]   ├─ ⏱ Total execution time: 0:00:36.749930
+[2025-08-10 12:57:03.902433]   ├─ MP4 exported: FrontYard1.20250810_125502-125516.978.mp4
+[2025-08-10 12:57:03.902648]   ├─ Main GIF: FrontYard1_081025_125652.gif
+[2025-08-10 12:57:03.902862]   └─ JPEG frames: 1 uploaded
+[2025-08-10 13:29:33.942646] 📩 Received alert:
+ ├─ Alert Handle: @72123594747633
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 1:29:31 PM
+[2025-08-10 13:29:33.947629] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 13:29:33.951918] ✅ Logged in: 465421891c5059b26da36db937ae1ebc
+[2025-08-10 13:29:33.958674] ✅ Using provided alert handle: @72123594747633
+[2025-08-10 13:29:33.958889] 📸 Final alert clip: @1882716034.bvr (Starts 5289292ms for 13837ms)
+[2025-08-10 13:29:34.038625] 📤 Export started
+[2025-08-10 13:29:50.654891] 📩 Received alert:
+ ├─ Alert Handle: @72123594764633
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 1:29:46 PM
+[2025-08-10 13:29:50.660766] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 13:29:50.664813] ✅ Logged in: 374b6a8b10d36e976cd56cbb710e73f1
+[2025-08-10 13:29:50.671752] ✅ Using provided alert handle: @72123594764633
+[2025-08-10 13:29:50.671958] 📸 Final alert clip: @1882716034.bvr (Starts 5306292ms for 13943ms)
+[2025-08-10 13:29:50.720405] 📤 Export started
+[2025-08-10 13:30:04.044206] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_132810-132824.979.mp4
+[2025-08-10 13:30:04.044696] 🎬 Converting MP4 to GIF...
+[2025-08-10 13:30:12.202139] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_133004.gif (30 frames)
+[2025-08-10 13:30:12.205209] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 13:30:12.483365] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_133012_mid.jpg
+[2025-08-10 13:30:12.484401] 📤 Uploading main GIF to MinIO...
+[2025-08-10 13:30:14.133855] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_133004.gif
+[2025-08-10 13:30:14.134186] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_133004.gif
+[2025-08-10 13:30:14.134397] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 13:30:14.656034] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_133012_mid.jpg
+[2025-08-10 13:30:14.656405] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_133012_mid.jpg
+[2025-08-10 13:30:14.656643] 📨 Sending webhook...
+[2025-08-10 13:30:14.741691] 📨 Webhook sent: 200
+[2025-08-10 13:30:14.748619] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 13:30:14.748866] ✅ Process completed
+[2025-08-10 13:30:14.749121] 📊 Summary:
+[2025-08-10 13:30:14.749309]   ├─ ⏱ Total execution time: 0:00:40.812196
+[2025-08-10 13:30:14.749494]   ├─ MP4 exported: FrontYard1.20250810_132810-132824.979.mp4
+[2025-08-10 13:30:14.749700]   ├─ Main GIF: FrontYard1_081025_133004.gif
+[2025-08-10 13:30:14.749905]   └─ JPEG frames: 1 uploaded
+[2025-08-10 13:30:15.723939] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_132827-132841.980.mp4
+[2025-08-10 13:30:15.724363] 🎬 Converting MP4 to GIF...
+[2025-08-10 13:30:23.095637] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_133015.gif (30 frames)
+[2025-08-10 13:30:23.098702] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 13:30:23.326038] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_133023_mid.jpg
+[2025-08-10 13:30:23.327376] 📤 Uploading main GIF to MinIO...
+[2025-08-10 13:30:24.496809] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_133015.gif
+[2025-08-10 13:30:24.497181] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_133015.gif
+[2025-08-10 13:30:24.497433] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 13:30:24.939090] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_133023_mid.jpg
+[2025-08-10 13:30:24.939454] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_133023_mid.jpg
+[2025-08-10 13:30:24.939668] 📨 Sending webhook...
+[2025-08-10 13:30:25.018538] 📨 Webhook sent: 200
+[2025-08-10 13:30:25.025404] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 13:30:25.025653] ✅ Process completed
+[2025-08-10 13:30:25.025865] 📊 Summary:
+[2025-08-10 13:30:25.026074]   ├─ ⏱ Total execution time: 0:00:34.377499
+[2025-08-10 13:30:25.026286]   ├─ MP4 exported: FrontYard1.20250810_132827-132841.980.mp4
+[2025-08-10 13:30:25.026522]   ├─ Main GIF: FrontYard1_081025_133015.gif
+[2025-08-10 13:30:25.026760]   └─ JPEG frames: 1 uploaded
+[2025-08-10 16:15:17.796567] 📩 Received alert:
+ ├─ Alert Handle: BackYard1.20250810_160001.896866.3-1.jpg
+ ├─ Camera: BackYard1
+ └─ Timestamp: 4:15:01 PM
+[2025-08-10 16:15:17.802764] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 16:15:17.807063] ✅ Logged in: 627503507db875780ef5599c2a531c3a
+[2025-08-10 16:15:17.822916] 🔁 Used alertlist fallback to find recent AI-filtered alert
+[2025-08-10 16:15:17.824267] 📸 Final alert clip: @1899435504.bvr (Starts 896866ms for 27407ms)
+[2025-08-10 16:15:17.946445] 📤 Export started
+[2025-08-10 16:15:42.950562] ✅ Found exported file: C:\Blue Iris\New\Clipboard\BackYard1.20250810_161458-161525.981.mp4
+[2025-08-10 16:15:42.951020] 🎬 Converting MP4 to GIF...
+[2025-08-10 16:15:48.341450] ✅ GIF created: C:\bi_alerts\BackYard1_081025_161542.gif (30 frames)
+[2025-08-10 16:15:48.344005] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 16:15:48.446170] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\BackYard1_081025_161548_mid.jpg
+[2025-08-10 16:15:48.446768] 📤 Uploading main GIF to MinIO...
+[2025-08-10 16:15:51.204772] ✅ Uploaded to MinIO: alerts/BackYard1_081025_161542.gif
+[2025-08-10 16:15:51.205158] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/BackYard1_081025_161542.gif
+[2025-08-10 16:15:51.205402] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 16:15:51.390299] ✅ Uploaded to MinIO: alert_frames/BackYard1_081025_161548_mid.jpg
+[2025-08-10 16:15:51.390657] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/BackYard1_081025_161548_mid.jpg
+[2025-08-10 16:15:51.390973] 📨 Sending webhook...
+[2025-08-10 16:15:51.483130] 📨 Webhook sent: 200
+[2025-08-10 16:15:51.489609] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 16:15:51.489844] ✅ Process completed
+[2025-08-10 16:15:51.490058] 📊 Summary:
+[2025-08-10 16:15:51.490271]   ├─ ⏱ Total execution time: 0:00:33.699249
+[2025-08-10 16:15:51.490488]   ├─ MP4 exported: BackYard1.20250810_161458-161525.981.mp4
+[2025-08-10 16:15:51.490725]   ├─ Main GIF: BackYard1_081025_161542.gif
+[2025-08-10 16:15:51.490973]   └─ JPEG frames: 1 uploaded
+[2025-08-10 16:22:40.005219] 📩 Received alert:
+ ├─ Alert Handle: @72123605133777
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 4:22:36 PM
+[2025-08-10 16:22:40.009753] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 16:22:40.013730] ✅ Logged in: 786f693545657f2a4f861f0300d22518
+[2025-08-10 16:22:40.022072] ✅ Using provided alert handle: @72123605133777
+[2025-08-10 16:22:40.022315] 📸 Final alert clip: @1899498913.bvr (Starts 1355148ms for 13946ms)
+[2025-08-10 16:22:40.064648] 📤 Export started
+[2025-08-10 16:23:07.265294] 📩 Received alert:
+ ├─ Alert Handle: @72123605160977
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 4:23:04 PM
+[2025-08-10 16:23:07.270443] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 16:23:07.274880] ✅ Logged in: 4ff718c42c1c0c776c7213ed042400d7
+[2025-08-10 16:23:07.281965] ✅ Using provided alert handle: @72123605160977
+[2025-08-10 16:23:07.282169] 📸 Final alert clip: @1899498913.bvr (Starts 1382348ms for 14143ms)
+[2025-08-10 16:23:07.330247] 📤 Export started
+[2025-08-10 16:23:13.069036] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_162236-162250.982.mp4
+[2025-08-10 16:23:13.069522] 🎬 Converting MP4 to GIF...
+[2025-08-10 16:23:21.849187] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_162313.gif (30 frames)
+[2025-08-10 16:23:21.851948] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 16:23:22.104924] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_162322_mid.jpg
+[2025-08-10 16:23:22.106253] 📤 Uploading main GIF to MinIO...
+[2025-08-10 16:23:23.408050] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_162313.gif
+[2025-08-10 16:23:23.408407] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_162313.gif
+[2025-08-10 16:23:23.408665] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 16:23:23.884432] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_162322_mid.jpg
+[2025-08-10 16:23:23.884764] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_162322_mid.jpg
+[2025-08-10 16:23:23.885004] 📨 Sending webhook...
+[2025-08-10 16:23:23.971188] 📨 Webhook sent: 200
+[2025-08-10 16:23:23.978909] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 16:23:23.979668] ✅ Process completed
+[2025-08-10 16:23:23.980282] 📊 Summary:
+[2025-08-10 16:23:23.980634]   ├─ ⏱ Total execution time: 0:00:43.980781
+[2025-08-10 16:23:23.980883]   ├─ MP4 exported: FrontYard1.20250810_162236-162250.982.mp4
+[2025-08-10 16:23:23.981149]   ├─ Main GIF: FrontYard1_081025_162313.gif
+[2025-08-10 16:23:23.981398]   └─ JPEG frames: 1 uploaded
+[2025-08-10 16:23:32.334662] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_162303-162317.983.mp4
+[2025-08-10 16:23:32.335070] 🎬 Converting MP4 to GIF...
+[2025-08-10 16:23:40.440658] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_162332.gif (30 frames)
+[2025-08-10 16:23:40.444479] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 16:23:40.669293] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_162340_mid.jpg
+[2025-08-10 16:23:40.671016] 📤 Uploading main GIF to MinIO...
+[2025-08-10 16:23:42.034567] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_162332.gif
+[2025-08-10 16:23:42.034895] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_162332.gif
+[2025-08-10 16:23:42.035124] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 16:23:42.304625] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_162340_mid.jpg
+[2025-08-10 16:23:42.304983] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_162340_mid.jpg
+[2025-08-10 16:23:42.305181] 📨 Sending webhook...
+[2025-08-10 16:23:42.371342] 📨 Webhook sent: 200
+[2025-08-10 16:23:42.377876] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 16:23:42.378095] ✅ Process completed
+[2025-08-10 16:23:42.378281] 📊 Summary:
+[2025-08-10 16:23:42.378465]   ├─ ⏱ Total execution time: 0:00:35.120171
+[2025-08-10 16:23:42.378649]   ├─ MP4 exported: FrontYard1.20250810_162303-162317.983.mp4
+[2025-08-10 16:23:42.378875]   ├─ Main GIF: FrontYard1_081025_162332.gif
+[2025-08-10 16:23:42.379100]   └─ JPEG frames: 1 uploaded
+[2025-08-10 18:57:57.540967] 📩 Received alert:
+ ├─ Alert Handle: @54531428404777
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 6:57:52 PM
+[2025-08-10 18:57:57.545769] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 18:57:57.550084] ✅ Logged in: 2a19013b681510427dd47caf55726d28
+[2025-08-10 18:57:57.556797] ✅ Using provided alert handle: @54531428404777
+[2025-08-10 18:57:57.557027] 📸 Final alert clip: @1905386119.bvr (Starts 3471770ms for 12995ms)
+[2025-08-10 18:57:57.600661] 📤 Export started
+[2025-08-10 18:58:16.604174] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_185751-185804.984.mp4
+[2025-08-10 18:58:16.604611] 🎬 Converting MP4 to GIF...
+[2025-08-10 18:58:24.779680] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_185816.gif (30 frames)
+[2025-08-10 18:58:24.782273] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 18:58:25.436513] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_185825_mid.jpg
+[2025-08-10 18:58:25.441103] 📤 Uploading main GIF to MinIO...
+[2025-08-10 18:58:26.633609] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_185816.gif
+[2025-08-10 18:58:26.634036] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_185816.gif
+[2025-08-10 18:58:26.634291] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 18:58:27.122405] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_185825_mid.jpg
+[2025-08-10 18:58:27.122882] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_185825_mid.jpg
+[2025-08-10 18:58:27.123150] 📨 Sending webhook...
+[2025-08-10 18:58:27.211369] 📨 Webhook sent: 200
+[2025-08-10 18:58:27.218044] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 18:58:27.218286] ✅ Process completed
+[2025-08-10 18:58:27.218505] 📊 Summary:
+[2025-08-10 18:58:27.218777]   ├─ ⏱ Total execution time: 0:00:29.683020
+[2025-08-10 18:58:27.219025]   ├─ MP4 exported: FrontYardDW.20250810_185751-185804.984.mp4
+[2025-08-10 18:58:27.219274]   ├─ Main GIF: FrontYardDW_081025_185816.gif
+[2025-08-10 18:58:27.219498]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:00:47.306225] 📩 Received alert:
+ ├─ Alert Handle: @54531428576874
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:00:44 PM
+[2025-08-10 19:00:47.311314] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:00:47.315421] ✅ Logged in: 53c406183d8605e04cbd7c4c185d62b5
+[2025-08-10 19:00:47.356982] ✅ Using provided alert handle: @54531428576874
+[2025-08-10 19:00:47.357367] 📸 Final alert clip: @1905386119.bvr (Starts 3643867ms for 12876ms)
+[2025-08-10 19:00:47.437961] 📤 Export started
+[2025-08-10 19:01:16.056675] 📩 Received alert:
+ ├─ Alert Handle: @54531428605534
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:01:12 PM
+[2025-08-10 19:01:16.062166] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:01:16.066226] ✅ Logged in: 1da379176b08153901aa18467ac55176
+[2025-08-10 19:01:16.074006] ✅ Using provided alert handle: @54531428605534
+[2025-08-10 19:01:16.074228] 📸 Final alert clip: @1905386119.bvr (Starts 3672527ms for 13013ms)
+[2025-08-10 19:01:16.121869] 📤 Export started
+[2025-08-10 19:01:18.442654] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_190043-190056.985.mp4
+[2025-08-10 19:01:18.443292] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:01:25.391990] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_190118.gif (30 frames)
+[2025-08-10 19:01:25.396048] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:01:25.682320] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_190125_mid.jpg
+[2025-08-10 19:01:25.683754] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:01:26.773578] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_190118.gif
+[2025-08-10 19:01:26.773928] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_190118.gif
+[2025-08-10 19:01:26.774159] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:01:27.103699] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_190125_mid.jpg
+[2025-08-10 19:01:27.104022] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_190125_mid.jpg
+[2025-08-10 19:01:27.104240] 📨 Sending webhook...
+[2025-08-10 19:01:27.175496] 📨 Webhook sent: 200
+[2025-08-10 19:01:27.184051] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:01:27.184296] ✅ Process completed
+[2025-08-10 19:01:27.184507] 📊 Summary:
+[2025-08-10 19:01:27.184724]   ├─ ⏱ Total execution time: 0:00:39.884084
+[2025-08-10 19:01:27.184947]   ├─ MP4 exported: FrontYardDW.20250810_190043-190056.985.mp4
+[2025-08-10 19:01:27.185185]   ├─ Main GIF: FrontYardDW_081025_190118.gif
+[2025-08-10 19:01:27.185430]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:01:41.125300] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_190112-190125.986.mp4
+[2025-08-10 19:01:41.125737] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:01:47.698837] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_190141.gif (30 frames)
+[2025-08-10 19:01:47.702787] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:01:47.971673] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_190147_mid.jpg
+[2025-08-10 19:01:47.972958] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:01:49.036506] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_190141.gif
+[2025-08-10 19:01:49.036830] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_190141.gif
+[2025-08-10 19:01:49.037116] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:01:49.391144] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_190147_mid.jpg
+[2025-08-10 19:01:49.391554] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_190147_mid.jpg
+[2025-08-10 19:01:49.391838] 📨 Sending webhook...
+[2025-08-10 19:01:49.457434] 📨 Webhook sent: 200
+[2025-08-10 19:01:49.465564] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:01:49.465841] ✅ Process completed
+[2025-08-10 19:01:49.466059] 📊 Summary:
+[2025-08-10 19:01:49.466257]   ├─ ⏱ Total execution time: 0:00:33.415175
+[2025-08-10 19:01:49.466456]   ├─ MP4 exported: FrontYardDW.20250810_190112-190125.986.mp4
+[2025-08-10 19:01:49.466668]   ├─ Main GIF: FrontYardDW_081025_190141.gif
+[2025-08-10 19:01:49.466883]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:02:01.849679] 📩 Received alert:
+ ├─ Alert Handle: @72123614696082
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:01:57 PM
+[2025-08-10 19:02:01.855054] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:02:01.892956] ✅ Logged in: 267955144384014e02e761820bef199e
+[2025-08-10 19:02:01.935657] ✅ Using provided alert handle: @72123614696082
+[2025-08-10 19:02:01.935995] 📸 Final alert clip: @1905410402.bvr (Starts 3717477ms for 13551ms)
+[2025-08-10 19:02:02.013798] 📤 Export started
+[2025-08-10 19:02:30.017864] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_190158-190211.987.mp4
+[2025-08-10 19:02:30.019031] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:02:37.352317] 📩 Received alert:
+ ├─ Alert Handle: @54531428686940
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:02:34 PM
+[2025-08-10 19:02:37.357387] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:02:37.361601] ✅ Logged in: 64e866cf7130174207bc373925935e7c
+[2025-08-10 19:02:37.369140] ✅ Using provided alert handle: @54531428686940
+[2025-08-10 19:02:37.369365] 📸 Final alert clip: @1905386119.bvr (Starts 3753933ms for 12851ms)
+[2025-08-10 19:02:37.414972] 📤 Export started
+[2025-08-10 19:02:37.715431] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_190230.gif (30 frames)
+[2025-08-10 19:02:37.718981] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:02:38.025647] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_190238_mid.jpg
+[2025-08-10 19:02:38.027477] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:02:39.213229] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_190230.gif
+[2025-08-10 19:02:39.213538] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_190230.gif
+[2025-08-10 19:02:39.213809] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:02:39.483187] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_190238_mid.jpg
+[2025-08-10 19:02:39.483512] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_190238_mid.jpg
+[2025-08-10 19:02:39.483738] 📨 Sending webhook...
+[2025-08-10 19:02:39.530493] 📨 Webhook sent: 200
+[2025-08-10 19:02:39.537979] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:02:39.538266] ✅ Process completed
+[2025-08-10 19:02:39.538503] 📊 Summary:
+[2025-08-10 19:02:39.538743]   ├─ ⏱ Total execution time: 0:00:37.694925
+[2025-08-10 19:02:39.538985]   ├─ MP4 exported: FrontYard1.20250810_190158-190211.987.mp4
+[2025-08-10 19:02:39.539214]   ├─ Main GIF: FrontYard1_081025_190230.gif
+[2025-08-10 19:02:39.539436]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:03:02.419595] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_190233-190246.988.mp4
+[2025-08-10 19:03:02.420071] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:03:09.176469] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_190302.gif (30 frames)
+[2025-08-10 19:03:09.179737] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:03:09.447120] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_190309_mid.jpg
+[2025-08-10 19:03:09.448493] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:03:10.650249] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_190302.gif
+[2025-08-10 19:03:10.650544] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_190302.gif
+[2025-08-10 19:03:10.650772] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:03:10.975642] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_190309_mid.jpg
+[2025-08-10 19:03:10.976072] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_190309_mid.jpg
+[2025-08-10 19:03:10.976342] 📨 Sending webhook...
+[2025-08-10 19:03:11.035113] 📨 Webhook sent: 200
+[2025-08-10 19:03:11.042026] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:03:11.042249] ✅ Process completed
+[2025-08-10 19:03:11.042468] 📊 Summary:
+[2025-08-10 19:03:11.042676]   ├─ ⏱ Total execution time: 0:00:33.696280
+[2025-08-10 19:03:11.042865]   ├─ MP4 exported: FrontYardDW.20250810_190233-190246.988.mp4
+[2025-08-10 19:03:11.043078]   ├─ Main GIF: FrontYardDW_081025_190302.gif
+[2025-08-10 19:03:11.043320]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:03:56.431063] 📩 Received alert:
+ ├─ Alert Handle: @54531428765850
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:03:53 PM
+[2025-08-10 19:03:56.437168] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:03:56.441724] ✅ Logged in: 32d50a3821402b7905bf03a8357f4f3b
+[2025-08-10 19:03:56.448666] ✅ Using provided alert handle: @54531428765850
+[2025-08-10 19:03:56.448906] 📸 Final alert clip: @1905386119.bvr (Starts 3832843ms for 13055ms)
+[2025-08-10 19:03:56.497264] 📤 Export started
+[2025-08-10 19:04:05.127272] 📩 Received alert:
+ ├─ Alert Handle: @72123614819182
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:04:01 PM
+[2025-08-10 19:04:05.134857] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:04:05.141764] ✅ Logged in: 24a92cc4595f498c186d3c9369623e32
+[2025-08-10 19:04:05.151216] ✅ Using provided alert handle: @72123614819182
+[2025-08-10 19:04:05.151531] 📸 Final alert clip: @1905410402.bvr (Starts 3840577ms for 13278ms)
+[2025-08-10 19:04:05.218127] 📤 Export started
+[2025-08-10 19:04:24.502231] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_190352-190405.989.mp4
+[2025-08-10 19:04:24.502721] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:04:32.680683] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_190424.gif (30 frames)
+[2025-08-10 19:04:32.683809] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:04:32.997686] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_190432_mid.jpg
+[2025-08-10 19:04:32.999049] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:04:34.040622] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_190424.gif
+[2025-08-10 19:04:34.040939] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_190424.gif
+[2025-08-10 19:04:34.041202] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:04:34.421143] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_190432_mid.jpg
+[2025-08-10 19:04:34.421489] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_190432_mid.jpg
+[2025-08-10 19:04:34.421758] 📨 Sending webhook...
+[2025-08-10 19:04:34.503314] 📨 Webhook sent: 200
+[2025-08-10 19:04:34.510202] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:04:34.510441] ✅ Process completed
+[2025-08-10 19:04:34.510638] 📊 Summary:
+[2025-08-10 19:04:34.510837]   ├─ ⏱ Total execution time: 0:00:38.086202
+[2025-08-10 19:04:34.511076]   ├─ MP4 exported: FrontYardDW.20250810_190352-190405.989.mp4
+[2025-08-10 19:04:34.511358]   ├─ Main GIF: FrontYardDW_081025_190424.gif
+[2025-08-10 19:04:34.511637]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:04:35.223559] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_190401-190414.990.mp4
+[2025-08-10 19:04:35.224012] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:04:41.672634] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_190435.gif (30 frames)
+[2025-08-10 19:04:41.676211] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:04:41.939693] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_190441_mid.jpg
+[2025-08-10 19:04:41.941268] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:04:42.968333] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_190435.gif
+[2025-08-10 19:04:42.968674] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_190435.gif
+[2025-08-10 19:04:42.968905] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:04:43.283674] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_190441_mid.jpg
+[2025-08-10 19:04:43.283993] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_190441_mid.jpg
+[2025-08-10 19:04:43.284230] 📨 Sending webhook...
+[2025-08-10 19:04:43.360749] 📨 Webhook sent: 200
+[2025-08-10 19:04:43.367349] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:04:43.367568] ✅ Process completed
+[2025-08-10 19:04:43.367754] 📊 Summary:
+[2025-08-10 19:04:43.367952]   ├─ ⏱ Total execution time: 0:00:38.249897
+[2025-08-10 19:04:43.368162]   ├─ MP4 exported: FrontYard1.20250810_190401-190414.990.mp4
+[2025-08-10 19:04:43.368376]   ├─ Main GIF: FrontYard1_081025_190435.gif
+[2025-08-10 19:04:43.368631]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:05:13.286976] 📩 Received alert:
+ ├─ Alert Handle: @54531428842958
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:05:10 PM
+[2025-08-10 19:05:13.291824] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:05:13.295915] ✅ Logged in: 57760e360fd837d269b8151a04a4239b
+[2025-08-10 19:05:13.336242] ✅ Using provided alert handle: @54531428842958
+[2025-08-10 19:05:13.336493] 📸 Final alert clip: @1905386119.bvr (Starts 3909951ms for 12829ms)
+[2025-08-10 19:05:13.378703] 📤 Export started
+[2025-08-10 19:05:35.382664] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_190509-190522.991.mp4
+[2025-08-10 19:05:35.383120] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:05:43.136437] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_190535.gif (30 frames)
+[2025-08-10 19:05:43.139863] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:05:43.458028] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_190543_mid.jpg
+[2025-08-10 19:05:43.459705] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:05:44.811120] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_190535.gif
+[2025-08-10 19:05:44.811428] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_190535.gif
+[2025-08-10 19:05:44.811637] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:05:45.114428] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_190543_mid.jpg
+[2025-08-10 19:05:45.114829] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_190543_mid.jpg
+[2025-08-10 19:05:45.115060] 📨 Sending webhook...
+[2025-08-10 19:05:45.167643] 📨 Webhook sent: 200
+[2025-08-10 19:05:45.174855] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:05:45.175086] ✅ Process completed
+[2025-08-10 19:05:45.175290] 📊 Summary:
+[2025-08-10 19:05:45.175521]   ├─ ⏱ Total execution time: 0:00:31.894630
+[2025-08-10 19:05:45.175727]   ├─ MP4 exported: FrontYardDW.20250810_190509-190522.991.mp4
+[2025-08-10 19:05:45.175962]   ├─ Main GIF: FrontYardDW_081025_190535.gif
+[2025-08-10 19:05:45.176176]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:06:01.487423] 📩 Received alert:
+ ├─ Alert Handle: @54531428891103
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:05:59 PM
+[2025-08-10 19:06:01.527272] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:06:01.531817] ✅ Logged in: 4cd7641139a77b45106905c817870aea
+[2025-08-10 19:06:01.539756] ✅ Using provided alert handle: @54531428891103
+[2025-08-10 19:06:01.540011] 📸 Final alert clip: @1905386119.bvr (Starts 3958096ms for 12913ms)
+[2025-08-10 19:06:01.582220] 📤 Export started
+[2025-08-10 19:06:26.585766] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_190557-190610.992.mp4
+[2025-08-10 19:06:26.586174] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:06:29.857991] 📩 Received alert:
+ ├─ Alert Handle: @72123614964252
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:06:25 PM
+[2025-08-10 19:06:29.864932] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:06:29.869798] ✅ Logged in: 14aa2da518e762044272480b13be7462
+[2025-08-10 19:06:29.913290] ✅ Using provided alert handle: @72123614964252
+[2025-08-10 19:06:29.913742] 📸 Final alert clip: @1905410402.bvr (Starts 3985647ms for 13237ms)
+[2025-08-10 19:06:29.966815] 📤 Export started
+[2025-08-10 19:06:34.500091] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_190626.gif (30 frames)
+[2025-08-10 19:06:34.504154] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:06:34.851771] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_190634_mid.jpg
+[2025-08-10 19:06:34.853056] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:06:36.165820] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_190626.gif
+[2025-08-10 19:06:36.166272] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_190626.gif
+[2025-08-10 19:06:36.166626] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:06:36.471552] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_190634_mid.jpg
+[2025-08-10 19:06:36.472000] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_190634_mid.jpg
+[2025-08-10 19:06:36.472364] 📨 Sending webhook...
+[2025-08-10 19:06:36.532110] 📨 Webhook sent: 200
+[2025-08-10 19:06:36.539609] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:06:36.539849] ✅ Process completed
+[2025-08-10 19:06:36.540078] 📊 Summary:
+[2025-08-10 19:06:36.540307]   ├─ ⏱ Total execution time: 0:00:35.059199
+[2025-08-10 19:06:36.540516]   ├─ MP4 exported: FrontYardDW.20250810_190557-190610.992.mp4
+[2025-08-10 19:06:36.540726]   ├─ Main GIF: FrontYardDW_081025_190626.gif
+[2025-08-10 19:06:36.540951]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:06:57.970789] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_190626-190639.993.mp4
+[2025-08-10 19:06:57.971160] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:07:05.423800] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_190657.gif (30 frames)
+[2025-08-10 19:07:05.427770] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:07:05.733844] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_190705_mid.jpg
+[2025-08-10 19:07:05.735263] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:07:06.970910] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_190657.gif
+[2025-08-10 19:07:06.971245] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_190657.gif
+[2025-08-10 19:07:06.971469] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:07:07.290669] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_190705_mid.jpg
+[2025-08-10 19:07:07.291099] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_190705_mid.jpg
+[2025-08-10 19:07:07.291400] 📨 Sending webhook...
+[2025-08-10 19:07:07.340991] 📨 Webhook sent: 200
+[2025-08-10 19:07:07.347881] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:07:07.348098] ✅ Process completed
+[2025-08-10 19:07:07.348308] 📊 Summary:
+[2025-08-10 19:07:07.348555]   ├─ ⏱ Total execution time: 0:00:37.498435
+[2025-08-10 19:07:07.348775]   ├─ MP4 exported: FrontYard1.20250810_190626-190639.993.mp4
+[2025-08-10 19:07:07.349008]   ├─ Main GIF: FrontYard1_081025_190657.gif
+[2025-08-10 19:07:07.349265]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:08:33.291139] 📩 Received alert:
+ ├─ Alert Handle: @54531429042889
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:08:30 PM
+[2025-08-10 19:08:33.295853] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:08:33.300016] ✅ Logged in: 543731313aea6e3f49904c2f35131ae4
+[2025-08-10 19:08:33.307451] ✅ Using provided alert handle: @54531429042889
+[2025-08-10 19:08:33.307718] 📸 Final alert clip: @1905386119.bvr (Starts 4109882ms for 12875ms)
+[2025-08-10 19:08:33.350367] 📤 Export started
+[2025-08-10 19:08:58.354211] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_190829-190842.994.mp4
+[2025-08-10 19:08:58.354567] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:09:06.059547] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_190858.gif (30 frames)
+[2025-08-10 19:09:06.063111] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:09:06.362453] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_190906_mid.jpg
+[2025-08-10 19:09:06.364440] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:09:07.771353] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_190858.gif
+[2025-08-10 19:09:07.771713] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_190858.gif
+[2025-08-10 19:09:07.771907] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:09:08.122894] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_190906_mid.jpg
+[2025-08-10 19:09:08.123312] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_190906_mid.jpg
+[2025-08-10 19:09:08.123564] 📨 Sending webhook...
+[2025-08-10 19:09:08.173170] 📨 Webhook sent: 200
+[2025-08-10 19:09:08.180457] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:09:08.180744] ✅ Process completed
+[2025-08-10 19:09:08.181018] 📊 Summary:
+[2025-08-10 19:09:08.181214]   ├─ ⏱ Total execution time: 0:00:34.896970
+[2025-08-10 19:09:08.181456]   ├─ MP4 exported: FrontYardDW.20250810_190829-190842.994.mp4
+[2025-08-10 19:09:08.181678]   ├─ Main GIF: FrontYardDW_081025_190858.gif
+[2025-08-10 19:09:08.181880]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:10:46.031858] 📩 Received alert:
+ ├─ Alert Handle: @72123615219259
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:10:42 PM
+[2025-08-10 19:10:46.037054] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:10:46.043832] ✅ Logged in: 2f9467fc40636ad519b85bc769b4382c
+[2025-08-10 19:10:46.059359] ✅ Using provided alert handle: @72123615219259
+[2025-08-10 19:10:46.059628] 📸 Final alert clip: @1905410402.bvr (Starts 4240654ms for 13846ms)
+[2025-08-10 19:10:46.122525] 📤 Export started
+[2025-08-10 19:10:48.554259] 📩 Received alert:
+ ├─ Alert Handle: @54531429177849
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:10:45 PM
+[2025-08-10 19:10:48.560080] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:10:48.564534] ✅ Logged in: 7dea3aa66c2601cc7cf517903449585b
+[2025-08-10 19:10:48.607261] ✅ Using provided alert handle: @54531429177849
+[2025-08-10 19:10:48.607763] 📸 Final alert clip: @1905386119.bvr (Starts 4244842ms for 13016ms)
+[2025-08-10 19:10:48.654342] 📤 Export started
+[2025-08-10 19:11:17.126824] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_191041-191055.995.mp4
+[2025-08-10 19:11:17.127297] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:11:25.064630] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_191117.gif (30 frames)
+[2025-08-10 19:11:25.067811] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:11:25.316424] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_191125_mid.jpg
+[2025-08-10 19:11:25.317782] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:11:26.325202] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_191117.gif
+[2025-08-10 19:11:26.325542] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_191117.gif
+[2025-08-10 19:11:26.325743] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:11:26.673014] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_191125_mid.jpg
+[2025-08-10 19:11:26.673393] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_191125_mid.jpg
+[2025-08-10 19:11:26.673646] 📨 Sending webhook...
+[2025-08-10 19:11:26.729497] 📨 Webhook sent: 200
+[2025-08-10 19:11:26.735672] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:11:26.735894] ✅ Process completed
+[2025-08-10 19:11:26.736083] 📊 Summary:
+[2025-08-10 19:11:26.736272]   ├─ ⏱ Total execution time: 0:00:40.710905
+[2025-08-10 19:11:26.736467]   ├─ MP4 exported: FrontYard1.20250810_191041-191055.995.mp4
+[2025-08-10 19:11:26.736695]   ├─ Main GIF: FrontYard1_081025_191117.gif
+[2025-08-10 19:11:26.736985]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:11:27.660386] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_191044-191057.996.mp4
+[2025-08-10 19:11:27.660825] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:11:34.280947] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_191127.gif (30 frames)
+[2025-08-10 19:11:34.284457] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:11:34.606828] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_191134_mid.jpg
+[2025-08-10 19:11:34.608183] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:11:35.707390] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_191127.gif
+[2025-08-10 19:11:35.707746] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_191127.gif
+[2025-08-10 19:11:35.707999] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:11:36.166912] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_191134_mid.jpg
+[2025-08-10 19:11:36.167286] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_191134_mid.jpg
+[2025-08-10 19:11:36.167504] 📨 Sending webhook...
+[2025-08-10 19:11:36.229569] 📨 Webhook sent: 200
+[2025-08-10 19:11:36.236330] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:11:36.236572] ✅ Process completed
+[2025-08-10 19:11:36.236794] 📊 Summary:
+[2025-08-10 19:11:36.237027]   ├─ ⏱ Total execution time: 0:00:47.689296
+[2025-08-10 19:11:36.237238]   ├─ MP4 exported: FrontYardDW.20250810_191044-191057.996.mp4
+[2025-08-10 19:11:36.237468]   ├─ Main GIF: FrontYardDW_081025_191127.gif
+[2025-08-10 19:11:36.237706]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:12:22.300845] 📩 Received alert:
+ ├─ Alert Handle: @54531429271943
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:12:18 PM
+[2025-08-10 19:12:22.306775] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:12:22.379165] ✅ Logged in: 26cb0cfd73be5881598f2c0057d804a1
+[2025-08-10 19:12:22.387740] ✅ Using provided alert handle: @54531429271943
+[2025-08-10 19:12:22.387998] 📸 Final alert clip: @1905386119.bvr (Starts 4338936ms for 12917ms)
+[2025-08-10 19:12:22.464672] 📤 Export started
+[2025-08-10 19:12:44.467401] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_191218-191231.997.mp4
+[2025-08-10 19:12:44.467828] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:12:50.602063] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_191244.gif (30 frames)
+[2025-08-10 19:12:50.605145] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:12:50.915048] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_191250_mid.jpg
+[2025-08-10 19:12:50.916507] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:12:51.884628] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_191244.gif
+[2025-08-10 19:12:51.885033] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_191244.gif
+[2025-08-10 19:12:51.885294] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:12:52.454430] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_191250_mid.jpg
+[2025-08-10 19:12:52.454817] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_191250_mid.jpg
+[2025-08-10 19:12:52.455061] 📨 Sending webhook...
+[2025-08-10 19:12:52.524168] 📨 Webhook sent: 200
+[2025-08-10 19:12:52.530527] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:12:52.530760] ✅ Process completed
+[2025-08-10 19:12:52.530985] 📊 Summary:
+[2025-08-10 19:12:52.531180]   ├─ ⏱ Total execution time: 0:00:30.236280
+[2025-08-10 19:12:52.531421]   ├─ MP4 exported: FrontYardDW.20250810_191218-191231.997.mp4
+[2025-08-10 19:12:52.531721]   ├─ Main GIF: FrontYardDW_081025_191244.gif
+[2025-08-10 19:12:52.531905]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:13:21.342898] 📩 Received alert:
+ ├─ Alert Handle: @54531429330931
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:13:19 PM
+[2025-08-10 19:13:21.347870] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:13:21.351578] ✅ Logged in: 015e6cca7ba4559d5d6021bd71887555
+[2025-08-10 19:13:21.358883] ✅ Using provided alert handle: @54531429330931
+[2025-08-10 19:13:21.359151] 📸 Final alert clip: @1905386119.bvr (Starts 4397924ms for 12874ms)
+[2025-08-10 19:13:21.406920] 📤 Export started
+[2025-08-10 19:13:49.411293] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_191317-191330.998.mp4
+[2025-08-10 19:13:49.411709] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:13:56.799140] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_191349.gif (30 frames)
+[2025-08-10 19:13:56.802226] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:13:57.162954] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_191357_mid.jpg
+[2025-08-10 19:13:57.164517] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:13:58.465389] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_191349.gif
+[2025-08-10 19:13:58.465740] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_191349.gif
+[2025-08-10 19:13:58.465950] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:13:59.167230] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_191357_mid.jpg
+[2025-08-10 19:13:59.167590] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_191357_mid.jpg
+[2025-08-10 19:13:59.167808] 📨 Sending webhook...
+[2025-08-10 19:13:59.244387] 📨 Webhook sent: 200
+[2025-08-10 19:13:59.253399] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:13:59.253678] ✅ Process completed
+[2025-08-10 19:13:59.253936] 📊 Summary:
+[2025-08-10 19:13:59.254168]   ├─ ⏱ Total execution time: 0:00:37.916770
+[2025-08-10 19:13:59.254370]   ├─ MP4 exported: FrontYardDW.20250810_191317-191330.998.mp4
+[2025-08-10 19:13:59.254586]   ├─ Main GIF: FrontYardDW_081025_191349.gif
+[2025-08-10 19:13:59.254856]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:14:35.693800] 📩 Received alert:
+ ├─ Alert Handle: @72123615449377
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:14:32 PM
+[2025-08-10 19:14:35.698975] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:14:35.703210] ✅ Logged in: 7e67051e61e848885810254213d329c4
+[2025-08-10 19:14:35.710146] ✅ Using provided alert handle: @72123615449377
+[2025-08-10 19:14:35.710364] 📸 Final alert clip: @1905410402.bvr (Starts 4470772ms for 13942ms)
+[2025-08-10 19:14:35.760147] 📤 Export started
+[2025-08-10 19:15:03.765063] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_191431-191445.999.mp4
+[2025-08-10 19:15:03.766187] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:15:06.483750] 📩 Received alert:
+ ├─ Alert Handle: @72123615480877
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:15:02 PM
+[2025-08-10 19:15:06.489413] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:15:06.493783] ✅ Logged in: 298e5a754a8c6a25178554590998328a
+[2025-08-10 19:15:06.502914] ✅ Using provided alert handle: @72123615480877
+[2025-08-10 19:15:06.503212] 📸 Final alert clip: @1905410402.bvr (Starts 4502272ms for 13238ms)
+[2025-08-10 19:15:06.560011] 📤 Export started
+[2025-08-10 19:15:12.009919] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_191503.gif (30 frames)
+[2025-08-10 19:15:12.012975] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:15:12.286610] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_191512_mid.jpg
+[2025-08-10 19:15:12.288177] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:15:13.461553] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_191503.gif
+[2025-08-10 19:15:13.461988] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_191503.gif
+[2025-08-10 19:15:13.462239] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:15:13.989222] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_191512_mid.jpg
+[2025-08-10 19:15:13.989697] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_191512_mid.jpg
+[2025-08-10 19:15:13.989991] 📨 Sending webhook...
+[2025-08-10 19:15:14.058757] 📨 Webhook sent: 200
+[2025-08-10 19:15:14.066986] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:15:14.067261] ✅ Process completed
+[2025-08-10 19:15:14.067480] 📊 Summary:
+[2025-08-10 19:15:14.067719]   ├─ ⏱ Total execution time: 0:00:38.379509
+[2025-08-10 19:15:14.067928]   ├─ MP4 exported: FrontYard1.20250810_191431-191445.999.mp4
+[2025-08-10 19:15:14.068144]   ├─ Main GIF: FrontYard1_081025_191503.gif
+[2025-08-10 19:15:14.068398]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:15:38.670112] 📩 Received alert:
+ ├─ Alert Handle: @72123615512577
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:15:34 PM
+[2025-08-10 19:15:38.675362] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:15:38.747431] ✅ Logged in: 00910d9852517408092609ce5d4e4d8b
+[2025-08-10 19:15:38.790060] ✅ Using provided alert handle: @72123615512577
+[2025-08-10 19:15:38.790385] 📸 Final alert clip: @1905410402.bvr (Starts 4533972ms for 13844ms)
+[2025-08-10 19:15:38.872800] 📤 Export started
+[2025-08-10 19:15:39.565577] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_191503-191516.1000.mp4
+[2025-08-10 19:15:39.566026] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:15:47.402110] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_191539.gif (30 frames)
+[2025-08-10 19:15:47.405403] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:15:47.781013] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_191547_mid.jpg
+[2025-08-10 19:15:47.782567] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:15:48.956297] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_191539.gif
+[2025-08-10 19:15:48.956630] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_191539.gif
+[2025-08-10 19:15:48.956846] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:15:49.261052] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_191547_mid.jpg
+[2025-08-10 19:15:49.261469] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_191547_mid.jpg
+[2025-08-10 19:15:49.261746] 📨 Sending webhook...
+[2025-08-10 19:15:49.336226] 📨 Webhook sent: 200
+[2025-08-10 19:15:49.342771] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:15:49.343004] ✅ Process completed
+[2025-08-10 19:15:49.343199] 📊 Summary:
+[2025-08-10 19:15:49.343386]   ├─ ⏱ Total execution time: 0:00:42.867586
+[2025-08-10 19:15:49.343586]   ├─ MP4 exported: FrontYard1.20250810_191503-191516.1000.mp4
+[2025-08-10 19:15:49.343833]   ├─ Main GIF: FrontYard1_081025_191539.gif
+[2025-08-10 19:15:49.344057]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:16:11.878473] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_191534-191548.1001.mp4
+[2025-08-10 19:16:11.878851] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:16:19.358627] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_191611.gif (30 frames)
+[2025-08-10 19:16:19.361692] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:16:19.629493] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_191619_mid.jpg
+[2025-08-10 19:16:19.630673] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:16:23.695254] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_191611.gif
+[2025-08-10 19:16:23.695632] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_191611.gif
+[2025-08-10 19:16:23.695920] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:16:24.425418] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_191619_mid.jpg
+[2025-08-10 19:16:24.425769] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_191619_mid.jpg
+[2025-08-10 19:16:24.426053] 📨 Sending webhook...
+[2025-08-10 19:16:24.547169] 📨 Webhook sent: 200
+[2025-08-10 19:16:24.553730] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:16:24.553960] ✅ Process completed
+[2025-08-10 19:16:24.554179] 📊 Summary:
+[2025-08-10 19:16:24.554388]   ├─ ⏱ Total execution time: 0:00:45.890352
+[2025-08-10 19:16:24.554586]   ├─ MP4 exported: FrontYard1.20250810_191534-191548.1001.mp4
+[2025-08-10 19:16:24.554803]   ├─ Main GIF: FrontYard1_081025_191611.gif
+[2025-08-10 19:16:24.555045]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:17:22.464171] 📩 Received alert:
+ ├─ Alert Handle: @72123615617177
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:17:19 PM
+[2025-08-10 19:17:22.469194] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:17:22.507613] ✅ Logged in: 637658e5530405fa52ff05cd4cc57920
+[2025-08-10 19:17:22.550650] ✅ Using provided alert handle: @72123615617177
+[2025-08-10 19:17:22.550967] 📸 Final alert clip: @1905410402.bvr (Starts 4638572ms for 13122ms)
+[2025-08-10 19:17:22.600962] 📤 Export started
+[2025-08-10 19:17:28.187033] 📩 Received alert:
+ ├─ Alert Handle: @54531429577700
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:17:25 PM
+[2025-08-10 19:17:28.192486] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:17:28.196343] ✅ Logged in: 42dc25323ae7411f2da807ba6a6f4221
+[2025-08-10 19:17:28.203040] ✅ Using provided alert handle: @54531429577700
+[2025-08-10 19:17:28.203265] 📸 Final alert clip: @1905386119.bvr (Starts 4644693ms for 13023ms)
+[2025-08-10 19:17:28.257653] 📤 Export started
+[2025-08-10 19:17:49.605580] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_191719-191732.1002.mp4
+[2025-08-10 19:17:49.606338] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:17:56.445762] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_191749.gif (30 frames)
+[2025-08-10 19:17:56.449248] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:17:56.701339] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_191756_mid.jpg
+[2025-08-10 19:17:56.702912] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:17:58.104952] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_191749.gif
+[2025-08-10 19:17:58.105298] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_191749.gif
+[2025-08-10 19:17:58.105522] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:17:58.262766] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_191724-191737.1003.mp4
+[2025-08-10 19:17:58.263189] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:17:58.401807] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_191756_mid.jpg
+[2025-08-10 19:17:58.402433] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_191756_mid.jpg
+[2025-08-10 19:17:58.402868] 📨 Sending webhook...
+[2025-08-10 19:17:58.481574] 📨 Webhook sent: 200
+[2025-08-10 19:17:58.489951] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:17:58.490299] ✅ Process completed
+[2025-08-10 19:17:58.490557] 📊 Summary:
+[2025-08-10 19:17:58.490790]   ├─ ⏱ Total execution time: 0:00:36.032901
+[2025-08-10 19:17:58.491002]   ├─ MP4 exported: FrontYard1.20250810_191719-191732.1002.mp4
+[2025-08-10 19:17:58.491250]   ├─ Main GIF: FrontYard1_081025_191749.gif
+[2025-08-10 19:17:58.491500]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:18:04.550835] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_191758.gif (30 frames)
+[2025-08-10 19:18:04.554110] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:18:04.859218] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_191804_mid.jpg
+[2025-08-10 19:18:04.860468] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:18:07.514804] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_191758.gif
+[2025-08-10 19:18:07.515221] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_191758.gif
+[2025-08-10 19:18:07.515513] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:18:07.951579] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_191804_mid.jpg
+[2025-08-10 19:18:07.951931] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_191804_mid.jpg
+[2025-08-10 19:18:07.952150] 📨 Sending webhook...
+[2025-08-10 19:18:08.013968] 📨 Webhook sent: 200
+[2025-08-10 19:18:08.021612] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:18:08.021841] ✅ Process completed
+[2025-08-10 19:18:08.022028] 📊 Summary:
+[2025-08-10 19:18:08.022218]   ├─ ⏱ Total execution time: 0:00:39.841442
+[2025-08-10 19:18:08.022407]   ├─ MP4 exported: FrontYardDW.20250810_191724-191737.1003.mp4
+[2025-08-10 19:18:08.022614]   ├─ Main GIF: FrontYardDW_081025_191758.gif
+[2025-08-10 19:18:08.022827]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:18:45.307925] 📩 Received alert:
+ ├─ Alert Handle: @72123615699262
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:18:41 PM
+[2025-08-10 19:18:45.312967] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:18:45.317083] ✅ Logged in: 05de4b38199e2af53cea1b2959d819e5
+[2025-08-10 19:18:45.324716] ✅ Using provided alert handle: @72123615699262
+[2025-08-10 19:18:45.324942] 📸 Final alert clip: @1905410402.bvr (Starts 4720657ms for 13787ms)
+[2025-08-10 19:18:45.369405] 📤 Export started
+[2025-08-10 19:19:09.546443] 📩 Received alert:
+ ├─ Alert Handle: @54531429678658
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:19:06 PM
+[2025-08-10 19:19:09.555854] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:19:09.561089] ✅ Logged in: 1fc9320e3b35616313ec2c060d844f28
+[2025-08-10 19:19:09.569855] ✅ Using provided alert handle: @54531429678658
+[2025-08-10 19:19:09.570117] 📸 Final alert clip: @1905386119.bvr (Starts 4745651ms for 13386ms)
+[2025-08-10 19:19:09.620599] 📤 Export started
+[2025-08-10 19:19:18.375256] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_191841-191855.1004.mp4
+[2025-08-10 19:19:18.375703] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:19:26.169371] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_191918.gif (30 frames)
+[2025-08-10 19:19:26.173679] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:19:26.444952] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_191926_mid.jpg
+[2025-08-10 19:19:26.446540] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:19:27.561849] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_191918.gif
+[2025-08-10 19:19:27.562244] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_191918.gif
+[2025-08-10 19:19:27.562504] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:19:28.016589] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_191926_mid.jpg
+[2025-08-10 19:19:28.017003] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_191926_mid.jpg
+[2025-08-10 19:19:28.017253] 📨 Sending webhook...
+[2025-08-10 19:19:28.073788] 📨 Webhook sent: 200
+[2025-08-10 19:19:28.082275] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:19:28.082553] ✅ Process completed
+[2025-08-10 19:19:28.082778] 📊 Summary:
+[2025-08-10 19:19:28.083024]   ├─ ⏱ Total execution time: 0:00:42.781091
+[2025-08-10 19:19:28.083246]   ├─ MP4 exported: FrontYard1.20250810_191841-191855.1004.mp4
+[2025-08-10 19:19:28.083500]   ├─ Main GIF: FrontYard1_081025_191918.gif
+[2025-08-10 19:19:28.083696]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:19:40.625939] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_191905-191918.1005.mp4
+[2025-08-10 19:19:40.626356] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:19:47.555860] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_191940.gif (30 frames)
+[2025-08-10 19:19:47.559070] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:19:47.884964] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_191947_mid.jpg
+[2025-08-10 19:19:47.886559] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:19:49.356530] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_191940.gif
+[2025-08-10 19:19:49.356907] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_191940.gif
+[2025-08-10 19:19:49.357177] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:19:49.706568] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_191947_mid.jpg
+[2025-08-10 19:19:49.706972] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_191947_mid.jpg
+[2025-08-10 19:19:49.707276] 📨 Sending webhook...
+[2025-08-10 19:19:49.763897] 📨 Webhook sent: 200
+[2025-08-10 19:19:49.773541] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:19:49.773824] ✅ Process completed
+[2025-08-10 19:19:49.774031] 📊 Summary:
+[2025-08-10 19:19:49.774229]   ├─ ⏱ Total execution time: 0:00:40.235080
+[2025-08-10 19:19:49.774425]   ├─ MP4 exported: FrontYardDW.20250810_191905-191918.1005.mp4
+[2025-08-10 19:19:49.774633]   ├─ Main GIF: FrontYardDW_081025_191940.gif
+[2025-08-10 19:19:49.774854]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:19:52.674195] 📩 Received alert:
+ ├─ Alert Handle: @54531429722088
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:19:50 PM
+[2025-08-10 19:19:52.679590] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:19:52.752185] ✅ Logged in: 7d46453503f71d01783c608e77b675a9
+[2025-08-10 19:19:52.793898] ✅ Using provided alert handle: @54531429722088
+[2025-08-10 19:19:52.794256] 📸 Final alert clip: @1905386119.bvr (Starts 4789081ms for 13083ms)
+[2025-08-10 19:19:52.874868] 📤 Export started
+[2025-08-10 19:20:20.879352] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_191948-192002.1006.mp4
+[2025-08-10 19:20:20.879874] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:20:23.073564] 📩 Received alert:
+ ├─ Alert Handle: @72123615796962
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:20:19 PM
+[2025-08-10 19:20:23.079736] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:20:23.084232] ✅ Logged in: 18ba778d04f5031a08d47c1d636f7907
+[2025-08-10 19:20:23.092848] ✅ Using provided alert handle: @72123615796962
+[2025-08-10 19:20:23.093091] 📸 Final alert clip: @1905410402.bvr (Starts 4818357ms for 13841ms)
+[2025-08-10 19:20:23.144580] 📤 Export started
+[2025-08-10 19:20:28.199404] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_192020.gif (30 frames)
+[2025-08-10 19:20:28.202975] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:20:28.553910] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_192028_mid.jpg
+[2025-08-10 19:20:28.555456] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:20:29.574209] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_192020.gif
+[2025-08-10 19:20:29.574609] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_192020.gif
+[2025-08-10 19:20:29.574916] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:20:30.258039] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_192028_mid.jpg
+[2025-08-10 19:20:30.258415] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_192028_mid.jpg
+[2025-08-10 19:20:30.258705] 📨 Sending webhook...
+[2025-08-10 19:20:30.318111] 📨 Webhook sent: 200
+[2025-08-10 19:20:30.326050] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:20:30.326305] ✅ Process completed
+[2025-08-10 19:20:30.326508] 📊 Summary:
+[2025-08-10 19:20:30.326727]   ├─ ⏱ Total execution time: 0:00:37.658585
+[2025-08-10 19:20:30.326928]   ├─ MP4 exported: FrontYardDW.20250810_191948-192002.1006.mp4
+[2025-08-10 19:20:30.327143]   ├─ Main GIF: FrontYardDW_081025_192020.gif
+[2025-08-10 19:20:30.327344]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:20:42.308073] 📩 Received alert:
+ ├─ Alert Handle: @54531429758038
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:20:24 PM
+[2025-08-10 19:20:42.314243] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:20:42.321369] ✅ Logged in: 6376071015e506ab0d43711f3d686e68
+[2025-08-10 19:20:42.332204] ✅ Using provided alert handle: @54531429758038
+[2025-08-10 19:20:42.332442] 📸 Final alert clip: @1905386119.bvr (Starts 4825031ms for 26755ms)
+[2025-08-10 19:20:42.434659] 📤 Export started
+[2025-08-10 19:20:56.148195] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_192019-192033.1007.mp4
+[2025-08-10 19:20:56.148613] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:21:04.171649] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_192056.gif (30 frames)
+[2025-08-10 19:21:04.175366] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:21:04.464605] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_192104_mid.jpg
+[2025-08-10 19:21:04.466084] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:21:05.562655] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_192056.gif
+[2025-08-10 19:21:05.563133] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_192056.gif
+[2025-08-10 19:21:05.563416] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:21:06.004700] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_192104_mid.jpg
+[2025-08-10 19:21:06.005247] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_192104_mid.jpg
+[2025-08-10 19:21:06.005534] 📨 Sending webhook...
+[2025-08-10 19:21:06.064216] 📨 Webhook sent: 200
+[2025-08-10 19:21:06.072548] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:21:06.072829] ✅ Process completed
+[2025-08-10 19:21:06.073053] 📊 Summary:
+[2025-08-10 19:21:06.073274]   ├─ ⏱ Total execution time: 0:00:43.007194
+[2025-08-10 19:21:06.073501]   ├─ MP4 exported: FrontYard1.20250810_192019-192033.1007.mp4
+[2025-08-10 19:21:06.073756]   ├─ Main GIF: FrontYard1_081025_192056.gif
+[2025-08-10 19:21:06.074027]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:21:17.441311] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_192024-192051.1008.mp4
+[2025-08-10 19:21:17.441754] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:21:28.871431] 📩 Received alert:
+ ├─ Alert Handle: @54531429818457
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:21:26 PM
+[2025-08-10 19:21:28.878232] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:21:28.882408] ✅ Logged in: 1e795c687292527a0c7112df43ca405c
+[2025-08-10 19:21:28.892201] ✅ Using provided alert handle: @54531429818457
+[2025-08-10 19:21:28.892464] 📸 Final alert clip: @1905386119.bvr (Starts 4885450ms for 12904ms)
+[2025-08-10 19:21:28.939915] 📤 Export started
+[2025-08-10 19:21:29.315408] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_192117.gif (30 frames)
+[2025-08-10 19:21:29.318085] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:21:29.621707] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_192129_mid.jpg
+[2025-08-10 19:21:29.623061] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:21:30.815060] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_192117.gif
+[2025-08-10 19:21:30.815392] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_192117.gif
+[2025-08-10 19:21:30.815660] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:21:31.386532] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_192129_mid.jpg
+[2025-08-10 19:21:31.386909] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_192129_mid.jpg
+[2025-08-10 19:21:31.387191] 📨 Sending webhook...
+[2025-08-10 19:21:31.458562] 📨 Webhook sent: 200
+[2025-08-10 19:21:31.465393] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:21:31.465619] ✅ Process completed
+[2025-08-10 19:21:31.465853] 📊 Summary:
+[2025-08-10 19:21:31.466063]   ├─ ⏱ Total execution time: 0:00:49.164469
+[2025-08-10 19:21:31.466257]   ├─ MP4 exported: FrontYardDW.20250810_192024-192051.1008.mp4
+[2025-08-10 19:21:31.466490]   ├─ Main GIF: FrontYardDW_081025_192117.gif
+[2025-08-10 19:21:31.466736]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:21:55.093157] 📩 Received alert:
+ ├─ Alert Handle: @54531429843936
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:21:51 PM
+[2025-08-10 19:21:55.098151] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:21:55.135437] ✅ Logged in: 00ec0f516a44603c10287f0661bd0ed0
+[2025-08-10 19:21:55.176949] ✅ Using provided alert handle: @54531429843936
+[2025-08-10 19:21:55.177358] 📸 Final alert clip: @1905386119.bvr (Starts 4910929ms for 13043ms)
+[2025-08-10 19:21:55.261275] 📤 Export started
+[2025-08-10 19:21:56.944218] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_192125-192138.1009.mp4
+[2025-08-10 19:21:56.944576] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:22:04.397410] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_192156.gif (30 frames)
+[2025-08-10 19:22:04.401094] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:22:04.730933] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_192204_mid.jpg
+[2025-08-10 19:22:04.732520] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:22:07.352674] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_192156.gif
+[2025-08-10 19:22:07.352991] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_192156.gif
+[2025-08-10 19:22:07.353256] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:22:08.174333] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_192204_mid.jpg
+[2025-08-10 19:22:08.174686] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_192204_mid.jpg
+[2025-08-10 19:22:08.174913] 📨 Sending webhook...
+[2025-08-10 19:22:08.364548] 📨 Webhook sent: 200
+[2025-08-10 19:22:08.372270] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:22:08.372513] ✅ Process completed
+[2025-08-10 19:22:08.372736] 📊 Summary:
+[2025-08-10 19:22:08.372940]   ├─ ⏱ Total execution time: 0:00:39.512002
+[2025-08-10 19:22:08.373136]   ├─ MP4 exported: FrontYardDW.20250810_192125-192138.1009.mp4
+[2025-08-10 19:22:08.373340]   ├─ Main GIF: FrontYardDW_081025_192156.gif
+[2025-08-10 19:22:08.373522]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:22:20.264370] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_192150-192203.1010.mp4
+[2025-08-10 19:22:20.264856] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:22:26.801585] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_192220.gif (30 frames)
+[2025-08-10 19:22:26.805044] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:22:27.153151] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_192227_mid.jpg
+[2025-08-10 19:22:27.154884] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:22:28.630153] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_192220.gif
+[2025-08-10 19:22:28.630498] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_192220.gif
+[2025-08-10 19:22:28.630746] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:22:29.046302] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_192227_mid.jpg
+[2025-08-10 19:22:29.046705] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_192227_mid.jpg
+[2025-08-10 19:22:29.046990] 📨 Sending webhook...
+[2025-08-10 19:22:29.116264] 📨 Webhook sent: 200
+[2025-08-10 19:22:29.124901] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:22:29.125132] ✅ Process completed
+[2025-08-10 19:22:29.125328] 📊 Summary:
+[2025-08-10 19:22:29.125525]   ├─ ⏱ Total execution time: 0:00:34.038356
+[2025-08-10 19:22:29.125720]   ├─ MP4 exported: FrontYardDW.20250810_192150-192203.1010.mp4
+[2025-08-10 19:22:29.125963]   ├─ Main GIF: FrontYardDW_081025_192220.gif
+[2025-08-10 19:22:29.126191]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:22:30.239799] 📩 Received alert:
+ ├─ Alert Handle: @54531429879630
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:22:27 PM
+[2025-08-10 19:22:30.244924] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:22:30.248596] ✅ Logged in: 1aaa44f452ab16c73bf01029425d4f27
+[2025-08-10 19:22:30.254964] ✅ Using provided alert handle: @54531429879630
+[2025-08-10 19:22:30.255165] 📸 Final alert clip: @1905386119.bvr (Starts 4946623ms for 13163ms)
+[2025-08-10 19:22:30.296512] 📤 Export started
+[2025-08-10 19:22:55.299972] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_192226-192239.1011.mp4
+[2025-08-10 19:22:55.300453] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:22:57.592664] 📩 Received alert:
+ ├─ Alert Handle: @72123615951862
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:22:54 PM
+[2025-08-10 19:22:57.598226] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:22:57.603480] ✅ Logged in: 5634530d3c8d1ee1209d19035c652c13
+[2025-08-10 19:22:57.614475] ✅ Using provided alert handle: @72123615951862
+[2025-08-10 19:22:57.614784] 📸 Final alert clip: @1905410402.bvr (Starts 4973257ms for 13476ms)
+[2025-08-10 19:22:57.669734] 📤 Export started
+[2025-08-10 19:23:02.438002] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_192255.gif (30 frames)
+[2025-08-10 19:23:02.443440] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:23:02.814385] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_192302_mid.jpg
+[2025-08-10 19:23:02.815707] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:23:04.042771] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_192255.gif
+[2025-08-10 19:23:04.043320] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_192255.gif
+[2025-08-10 19:23:04.043753] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:23:04.630970] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_192302_mid.jpg
+[2025-08-10 19:23:04.631392] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_192302_mid.jpg
+[2025-08-10 19:23:04.631637] 📨 Sending webhook...
+[2025-08-10 19:23:04.710394] 📨 Webhook sent: 200
+[2025-08-10 19:23:04.717528] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:23:04.717743] ✅ Process completed
+[2025-08-10 19:23:04.717982] 📊 Summary:
+[2025-08-10 19:23:04.718200]   ├─ ⏱ Total execution time: 0:00:34.484069
+[2025-08-10 19:23:04.718411]   ├─ MP4 exported: FrontYardDW.20250810_192226-192239.1011.mp4
+[2025-08-10 19:23:04.718636]   ├─ Main GIF: FrontYardDW_081025_192255.gif
+[2025-08-10 19:23:04.718891]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:23:30.675190] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_192254-192307.1012.mp4
+[2025-08-10 19:23:30.675621] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:23:37.820827] 📩 Received alert:
+ ├─ Alert Handle: @54531429947019
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:23:35 PM
+[2025-08-10 19:23:37.825603] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:23:37.829800] ✅ Logged in: 7c66578c1557058d6cc62c140fb12d3a
+[2025-08-10 19:23:37.836905] ✅ Using provided alert handle: @54531429947019
+[2025-08-10 19:23:37.837118] 📸 Final alert clip: @1905386119.bvr (Starts 5014012ms for 13081ms)
+[2025-08-10 19:23:37.887697] 📤 Export started
+[2025-08-10 19:23:39.004905] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_192330.gif (30 frames)
+[2025-08-10 19:23:39.008110] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:23:39.336442] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_192339_mid.jpg
+[2025-08-10 19:23:39.337815] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:23:40.556091] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_192330.gif
+[2025-08-10 19:23:40.556445] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_192330.gif
+[2025-08-10 19:23:40.556667] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:23:40.820111] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_192339_mid.jpg
+[2025-08-10 19:23:40.820513] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_192339_mid.jpg
+[2025-08-10 19:23:40.820765] 📨 Sending webhook...
+[2025-08-10 19:23:40.877948] 📨 Webhook sent: 200
+[2025-08-10 19:23:40.885445] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:23:40.885703] ✅ Process completed
+[2025-08-10 19:23:40.885926] 📊 Summary:
+[2025-08-10 19:23:40.886144]   ├─ ⏱ Total execution time: 0:00:43.300596
+[2025-08-10 19:23:40.886362]   ├─ MP4 exported: FrontYard1.20250810_192254-192307.1012.mp4
+[2025-08-10 19:23:40.886595]   ├─ Main GIF: FrontYard1_081025_192330.gif
+[2025-08-10 19:23:40.886851]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:23:59.891146] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_192333-192346.1013.mp4
+[2025-08-10 19:23:59.891533] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:24:06.880158] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_192359.gif (30 frames)
+[2025-08-10 19:24:06.883179] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:24:07.218230] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_192407_mid.jpg
+[2025-08-10 19:24:07.219684] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:24:08.444732] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_192359.gif
+[2025-08-10 19:24:08.445076] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_192359.gif
+[2025-08-10 19:24:08.445305] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:24:08.898692] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_192407_mid.jpg
+[2025-08-10 19:24:08.899052] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_192407_mid.jpg
+[2025-08-10 19:24:08.899284] 📨 Sending webhook...
+[2025-08-10 19:24:08.954182] 📨 Webhook sent: 200
+[2025-08-10 19:24:08.961358] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:24:08.961649] ✅ Process completed
+[2025-08-10 19:24:08.961897] 📊 Summary:
+[2025-08-10 19:24:08.962128]   ├─ ⏱ Total execution time: 0:00:31.147797
+[2025-08-10 19:24:08.962408]   ├─ MP4 exported: FrontYardDW.20250810_192333-192346.1013.mp4
+[2025-08-10 19:24:08.962723]   ├─ Main GIF: FrontYardDW_081025_192359.gif
+[2025-08-10 19:24:08.963143]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:25:31.300930] 📩 Received alert:
+ ├─ Alert Handle: @72123616105242
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:25:26 PM
+[2025-08-10 19:25:31.305505] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:25:31.309807] ✅ Logged in: 365442b87b1166fe2c90305626b654cc
+[2025-08-10 19:25:31.349684] ✅ Using provided alert handle: @72123616105242
+[2025-08-10 19:25:31.349949] 📸 Final alert clip: @1905410402.bvr (Starts 5126637ms for 13772ms)
+[2025-08-10 19:25:31.430475] 📤 Export started
+[2025-08-10 19:26:04.435996] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_192527-192541.1014.mp4
+[2025-08-10 19:26:04.436433] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:26:12.634197] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_192604.gif (30 frames)
+[2025-08-10 19:26:12.636909] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:26:12.932774] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_192612_mid.jpg
+[2025-08-10 19:26:12.935154] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:26:14.008439] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_192604.gif
+[2025-08-10 19:26:14.008791] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_192604.gif
+[2025-08-10 19:26:14.009057] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:26:14.316692] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_192612_mid.jpg
+[2025-08-10 19:26:14.317064] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_192612_mid.jpg
+[2025-08-10 19:26:14.317319] 📨 Sending webhook...
+[2025-08-10 19:26:14.365860] 📨 Webhook sent: 200
+[2025-08-10 19:26:14.372652] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:26:14.372857] ✅ Process completed
+[2025-08-10 19:26:14.373049] 📊 Summary:
+[2025-08-10 19:26:14.373234]   ├─ ⏱ Total execution time: 0:00:43.078006
+[2025-08-10 19:26:14.373419]   ├─ MP4 exported: FrontYard1.20250810_192527-192541.1014.mp4
+[2025-08-10 19:26:14.373628]   ├─ Main GIF: FrontYard1_081025_192604.gif
+[2025-08-10 19:26:14.373837]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:26:15.025768] 📩 Received alert:
+ ├─ Alert Handle: @54531430104543
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:26:11 PM
+[2025-08-10 19:26:15.031316] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:26:15.036104] ✅ Logged in: 1e0e67f06aef58a75b59448f0ce70293
+[2025-08-10 19:26:15.044325] ✅ Using provided alert handle: @54531430104543
+[2025-08-10 19:26:15.044583] 📸 Final alert clip: @1905386119.bvr (Starts 5171536ms for 13059ms)
+[2025-08-10 19:26:15.124522] 📤 Export started
+[2025-08-10 19:26:40.127925] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_192611-192624.1015.mp4
+[2025-08-10 19:26:40.128407] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:26:47.785603] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_192640.gif (30 frames)
+[2025-08-10 19:26:47.788717] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:26:48.061895] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_192648_mid.jpg
+[2025-08-10 19:26:48.063265] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:26:49.096958] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_192640.gif
+[2025-08-10 19:26:49.097342] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_192640.gif
+[2025-08-10 19:26:49.097638] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:26:49.414912] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_192648_mid.jpg
+[2025-08-10 19:26:49.415219] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_192648_mid.jpg
+[2025-08-10 19:26:49.415477] 📨 Sending webhook...
+[2025-08-10 19:26:49.483850] 📨 Webhook sent: 200
+[2025-08-10 19:26:49.492306] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:26:49.492569] ✅ Process completed
+[2025-08-10 19:26:49.492797] 📊 Summary:
+[2025-08-10 19:26:49.493019]   ├─ ⏱ Total execution time: 0:00:34.472738
+[2025-08-10 19:26:49.493240]   ├─ MP4 exported: FrontYardDW.20250810_192611-192624.1015.mp4
+[2025-08-10 19:26:49.493486]   ├─ Main GIF: FrontYardDW_081025_192640.gif
+[2025-08-10 19:26:49.493730]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:28:12.405570] 📩 Received alert:
+ ├─ Alert Handle: @54531430221924
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:28:09 PM
+[2025-08-10 19:28:12.410672] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:28:12.448481] ✅ Logged in: 2b701c92781e3bcd36995d1b2eb65c51
+[2025-08-10 19:28:12.490953] ✅ Using provided alert handle: @54531430221924
+[2025-08-10 19:28:12.491255] 📸 Final alert clip: @1905386119.bvr (Starts 5288917ms for 12920ms)
+[2025-08-10 19:28:12.574455] 📤 Export started
+[2025-08-10 19:28:34.577962] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_192808-192821.1016.mp4
+[2025-08-10 19:28:34.578378] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:28:41.376086] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_192834.gif (30 frames)
+[2025-08-10 19:28:41.379495] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:28:41.713895] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_192841_mid.jpg
+[2025-08-10 19:28:41.715673] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:28:42.831171] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_192834.gif
+[2025-08-10 19:28:42.831485] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_192834.gif
+[2025-08-10 19:28:42.831696] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:28:43.201580] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_192841_mid.jpg
+[2025-08-10 19:28:43.201985] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_192841_mid.jpg
+[2025-08-10 19:28:43.202270] 📨 Sending webhook...
+[2025-08-10 19:28:43.263665] 📨 Webhook sent: 200
+[2025-08-10 19:28:43.270575] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:28:43.270812] ✅ Process completed
+[2025-08-10 19:28:43.271025] 📊 Summary:
+[2025-08-10 19:28:43.271236]   ├─ ⏱ Total execution time: 0:00:30.871528
+[2025-08-10 19:28:43.271460]   ├─ MP4 exported: FrontYardDW.20250810_192808-192821.1016.mp4
+[2025-08-10 19:28:43.271742]   ├─ Main GIF: FrontYardDW_081025_192834.gif
+[2025-08-10 19:28:43.271991]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:30:12.907898] 📩 Received alert:
+ ├─ Alert Handle: @54531430342486
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:30:10 PM
+[2025-08-10 19:30:12.912811] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:30:12.917116] ✅ Logged in: 43e967ed114c70e44ba8356b5ba35d06
+[2025-08-10 19:30:12.923823] ✅ Using provided alert handle: @54531430342486
+[2025-08-10 19:30:12.924026] 📸 Final alert clip: @1905386119.bvr (Starts 5409479ms for 12973ms)
+[2025-08-10 19:30:12.972011] 📤 Export started
+[2025-08-10 19:30:37.976137] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_193009-193022.1017.mp4
+[2025-08-10 19:30:37.976621] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:30:43.233347] 📩 Received alert:
+ ├─ Alert Handle: @72123616416841
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:30:38 PM
+[2025-08-10 19:30:43.238691] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:30:43.243712] ✅ Logged in: 342e27cb1d66630b4e5c23eb0def5fde
+[2025-08-10 19:30:43.254291] ✅ Using provided alert handle: @72123616416841
+[2025-08-10 19:30:43.254744] 📸 Final alert clip: @1905410402.bvr (Starts 5438236ms for 14022ms)
+[2025-08-10 19:30:43.305705] 📤 Export started
+[2025-08-10 19:30:45.213060] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_193037.gif (30 frames)
+[2025-08-10 19:30:45.216682] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:30:45.514415] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_193045_mid.jpg
+[2025-08-10 19:30:45.515796] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:30:46.788023] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_193037.gif
+[2025-08-10 19:30:46.788406] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_193037.gif
+[2025-08-10 19:30:46.788702] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:30:47.085345] 📩 Received alert:
+ ├─ Alert Handle: @54531430376337
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:30:42 PM
+[2025-08-10 19:30:47.090371] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:30:47.128244] ✅ Logged in: 31470c4b5b137cdd4e095e1725e010fe
+[2025-08-10 19:30:47.169723] ✅ Using provided alert handle: @54531430376337
+[2025-08-10 19:30:47.170054] 📸 Final alert clip: @1905386119.bvr (Starts 5443330ms for 12902ms)
+[2025-08-10 19:30:47.252144] 📤 Export started
+[2025-08-10 19:30:47.290884] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_193045_mid.jpg
+[2025-08-10 19:30:47.291231] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_193045_mid.jpg
+[2025-08-10 19:30:47.291485] 📨 Sending webhook...
+[2025-08-10 19:30:47.375783] 📨 Webhook sent: 200
+[2025-08-10 19:30:47.382130] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:30:47.382388] ✅ Process completed
+[2025-08-10 19:30:47.382579] 📊 Summary:
+[2025-08-10 19:30:47.382766]   ├─ ⏱ Total execution time: 0:00:34.480702
+[2025-08-10 19:30:47.382953]   ├─ MP4 exported: FrontYardDW.20250810_193009-193022.1017.mp4
+[2025-08-10 19:30:47.383165]   ├─ Main GIF: FrontYardDW_081025_193037.gif
+[2025-08-10 19:30:47.383389]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:31:13.310489] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_193039-193053.1018.mp4
+[2025-08-10 19:31:13.310898] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:31:18.256887] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_193043-193056.1019.mp4
+[2025-08-10 19:31:18.257405] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:31:22.545898] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_193113.gif (30 frames)
+[2025-08-10 19:31:22.550326] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:31:22.912634] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_193122_mid.jpg
+[2025-08-10 19:31:22.914660] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:31:24.076877] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_193113.gif
+[2025-08-10 19:31:24.077225] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_193113.gif
+[2025-08-10 19:31:24.077466] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:31:24.511448] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_193122_mid.jpg
+[2025-08-10 19:31:24.511809] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_193122_mid.jpg
+[2025-08-10 19:31:24.512040] 📨 Sending webhook...
+[2025-08-10 19:31:24.570621] 📨 Webhook sent: 200
+[2025-08-10 19:31:24.577989] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:31:24.578256] ✅ Process completed
+[2025-08-10 19:31:24.578477] 📊 Summary:
+[2025-08-10 19:31:24.578673]   ├─ ⏱ Total execution time: 0:00:41.351482
+[2025-08-10 19:31:24.578863]   ├─ MP4 exported: FrontYard1.20250810_193039-193053.1018.mp4
+[2025-08-10 19:31:24.579082]   ├─ Main GIF: FrontYard1_081025_193113.gif
+[2025-08-10 19:31:24.579305]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:31:25.632735] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_193118.gif (30 frames)
+[2025-08-10 19:31:25.637069] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:31:25.910504] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_193125_mid.jpg
+[2025-08-10 19:31:25.912039] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:31:27.154259] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_193118.gif
+[2025-08-10 19:31:27.154568] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_193118.gif
+[2025-08-10 19:31:27.154822] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:31:27.577507] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_193125_mid.jpg
+[2025-08-10 19:31:27.577911] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_193125_mid.jpg
+[2025-08-10 19:31:27.578182] 📨 Sending webhook...
+[2025-08-10 19:31:27.631610] 📨 Webhook sent: 200
+[2025-08-10 19:31:27.639938] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:31:27.640217] ✅ Process completed
+[2025-08-10 19:31:27.640463] 📊 Summary:
+[2025-08-10 19:31:27.640683]   ├─ ⏱ Total execution time: 0:00:40.560607
+[2025-08-10 19:31:27.640916]   ├─ MP4 exported: FrontYardDW.20250810_193043-193056.1019.mp4
+[2025-08-10 19:31:27.641160]   ├─ Main GIF: FrontYardDW_081025_193118.gif
+[2025-08-10 19:31:27.641438]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:34:46.047984] 📩 Received alert:
+ ├─ Alert Handle: @72123616660358
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:34:42 PM
+[2025-08-10 19:34:46.052865] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:34:46.057186] ✅ Logged in: 02d26f415602604c07723efd696c793f
+[2025-08-10 19:34:46.098415] ✅ Using provided alert handle: @72123616660358
+[2025-08-10 19:34:46.098731] 📸 Final alert clip: @1905410402.bvr (Starts 5681753ms for 13522ms)
+[2025-08-10 19:34:46.185139] 📤 Export started
+[2025-08-10 19:35:03.176758] 📩 Received alert:
+ ├─ Alert Handle: @54531430632800
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:35:00 PM
+[2025-08-10 19:35:03.182447] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:35:03.256598] ✅ Logged in: 4ec02386505070921f6e2da41a775434
+[2025-08-10 19:35:03.265828] ✅ Using provided alert handle: @54531430632800
+[2025-08-10 19:35:03.266158] 📸 Final alert clip: @1905386119.bvr (Starts 5699793ms for 12927ms)
+[2025-08-10 19:35:03.318173] 📤 Export started
+[2025-08-10 19:35:11.190267] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_193442-193456.1020.mp4
+[2025-08-10 19:35:11.190704] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:35:17.762842] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_193511.gif (30 frames)
+[2025-08-10 19:35:17.766447] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:35:18.064034] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_193518_mid.jpg
+[2025-08-10 19:35:18.065375] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:35:19.199730] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_193511.gif
+[2025-08-10 19:35:19.200174] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_193511.gif
+[2025-08-10 19:35:19.200461] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:35:19.669903] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_193518_mid.jpg
+[2025-08-10 19:35:19.670299] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_193518_mid.jpg
+[2025-08-10 19:35:19.670547] 📨 Sending webhook...
+[2025-08-10 19:35:19.719248] 📨 Webhook sent: 200
+[2025-08-10 19:35:19.726105] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:35:19.726355] ✅ Process completed
+[2025-08-10 19:35:19.726582] 📊 Summary:
+[2025-08-10 19:35:19.726801]   ├─ ⏱ Total execution time: 0:00:33.685325
+[2025-08-10 19:35:19.727016]   ├─ MP4 exported: FrontYard1.20250810_193442-193456.1020.mp4
+[2025-08-10 19:35:19.727276]   ├─ Main GIF: FrontYard1_081025_193511.gif
+[2025-08-10 19:35:19.727532]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:35:28.321975] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_193459-193512.1021.mp4
+[2025-08-10 19:35:28.322355] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:35:34.404490] 📩 Received alert:
+ ├─ Alert Handle: @54531430663419
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:35:30 PM
+[2025-08-10 19:35:34.410907] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:35:34.414920] ✅ Logged in: 052b10624f25574a79cf71107e98621c
+[2025-08-10 19:35:34.422161] ✅ Using provided alert handle: @54531430663419
+[2025-08-10 19:35:34.422419] 📸 Final alert clip: @1905386119.bvr (Starts 5730412ms for 13209ms)
+[2025-08-10 19:35:34.469758] 📤 Export started
+[2025-08-10 19:35:35.067215] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_193528.gif (30 frames)
+[2025-08-10 19:35:35.070517] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:35:35.378579] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_193535_mid.jpg
+[2025-08-10 19:35:35.379945] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:35:36.676799] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_193528.gif
+[2025-08-10 19:35:36.677275] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_193528.gif
+[2025-08-10 19:35:36.677551] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:35:37.179554] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_193535_mid.jpg
+[2025-08-10 19:35:37.180001] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_193535_mid.jpg
+[2025-08-10 19:35:37.180320] 📨 Sending webhook...
+[2025-08-10 19:35:37.249983] 📨 Webhook sent: 200
+[2025-08-10 19:35:37.256597] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:35:37.256841] ✅ Process completed
+[2025-08-10 19:35:37.257031] 📊 Summary:
+[2025-08-10 19:35:37.257268]   ├─ ⏱ Total execution time: 0:00:34.087870
+[2025-08-10 19:35:37.257482]   ├─ MP4 exported: FrontYardDW.20250810_193459-193512.1021.mp4
+[2025-08-10 19:35:37.257766]   ├─ Main GIF: FrontYardDW_081025_193528.gif
+[2025-08-10 19:35:37.257986]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:36:02.473625] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_193530-193543.1022.mp4
+[2025-08-10 19:36:02.474061] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:36:09.106900] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_193602.gif (30 frames)
+[2025-08-10 19:36:09.110139] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:36:09.421784] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_193609_mid.jpg
+[2025-08-10 19:36:09.423189] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:36:10.547538] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_193602.gif
+[2025-08-10 19:36:10.547897] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_193602.gif
+[2025-08-10 19:36:10.548209] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:36:11.001797] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_193609_mid.jpg
+[2025-08-10 19:36:11.002200] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_193609_mid.jpg
+[2025-08-10 19:36:11.002478] 📨 Sending webhook...
+[2025-08-10 19:36:11.072798] 📨 Webhook sent: 200
+[2025-08-10 19:36:11.079314] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:36:11.079541] ✅ Process completed
+[2025-08-10 19:36:11.079745] 📊 Summary:
+[2025-08-10 19:36:11.079956]   ├─ ⏱ Total execution time: 0:00:36.682542
+[2025-08-10 19:36:11.080151]   ├─ MP4 exported: FrontYardDW.20250810_193530-193543.1022.mp4
+[2025-08-10 19:36:11.080361]   ├─ Main GIF: FrontYardDW_081025_193602.gif
+[2025-08-10 19:36:11.080606]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:36:32.143763] 📩 Received alert:
+ ├─ Alert Handle: @72123616766667
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:36:28 PM
+[2025-08-10 19:36:32.148982] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:36:32.152933] ✅ Logged in: 0e552baa4e1f1abb0b087d8c781842a0
+[2025-08-10 19:36:32.159972] ✅ Using provided alert handle: @72123616766667
+[2025-08-10 19:36:32.160196] 📸 Final alert clip: @1905410402.bvr (Starts 5788062ms for 13119ms)
+[2025-08-10 19:36:32.212078] 📤 Export started
+[2025-08-10 19:36:57.215993] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_193629-193642.1023.mp4
+[2025-08-10 19:36:57.216400] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:37:03.975085] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_193657.gif (30 frames)
+[2025-08-10 19:37:03.979812] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:37:04.301804] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_193704_mid.jpg
+[2025-08-10 19:37:04.303320] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:37:05.303557] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_193657.gif
+[2025-08-10 19:37:05.303911] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_193657.gif
+[2025-08-10 19:37:05.304196] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:37:05.577960] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_193704_mid.jpg
+[2025-08-10 19:37:05.578358] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_193704_mid.jpg
+[2025-08-10 19:37:05.578574] 📨 Sending webhook...
+[2025-08-10 19:37:05.651867] 📨 Webhook sent: 200
+[2025-08-10 19:37:05.660624] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:37:05.660980] ✅ Process completed
+[2025-08-10 19:37:05.661243] 📊 Summary:
+[2025-08-10 19:37:05.661478]   ├─ ⏱ Total execution time: 0:00:33.524186
+[2025-08-10 19:37:05.661709]   ├─ MP4 exported: FrontYard1.20250810_193629-193642.1023.mp4
+[2025-08-10 19:37:05.661957]   ├─ Main GIF: FrontYard1_081025_193657.gif
+[2025-08-10 19:37:05.662158]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:37:06.995685] 📩 Received alert:
+ ├─ Alert Handle: @72123616800767
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:37:04 PM
+[2025-08-10 19:37:07.000918] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:37:07.005145] ✅ Logged in: 49de6ad918eb0ba143996acc20d87f37
+[2025-08-10 19:37:07.012904] ✅ Using provided alert handle: @72123616800767
+[2025-08-10 19:37:07.013130] 📸 Final alert clip: @1905410402.bvr (Starts 5822162ms for 13886ms)
+[2025-08-10 19:37:07.071760] 📤 Export started
+[2025-08-10 19:37:17.801259] 📩 Received alert:
+ ├─ Alert Handle: @54531430767497
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:37:15 PM
+[2025-08-10 19:37:17.806411] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:37:17.810489] ✅ Logged in: 2a49122a00871f321ca234713b2b090b
+[2025-08-10 19:37:17.817257] ✅ Using provided alert handle: @54531430767497
+[2025-08-10 19:37:17.817509] 📸 Final alert clip: @1905386119.bvr (Starts 5834490ms for 12966ms)
+[2025-08-10 19:37:17.864670] 📤 Export started
+[2025-08-10 19:37:38.076359] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_193703-193717.1024.mp4
+[2025-08-10 19:37:38.076783] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:37:45.870286] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_193714-193727.1025.mp4
+[2025-08-10 19:37:45.870690] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:37:46.221330] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_193738.gif (30 frames)
+[2025-08-10 19:37:46.227450] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:37:46.846212] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_193746_mid.jpg
+[2025-08-10 19:37:46.849016] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:37:48.041738] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_193738.gif
+[2025-08-10 19:37:48.042180] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_193738.gif
+[2025-08-10 19:37:48.042486] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:37:48.393605] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_193746_mid.jpg
+[2025-08-10 19:37:48.394137] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_193746_mid.jpg
+[2025-08-10 19:37:48.394549] 📨 Sending webhook...
+[2025-08-10 19:37:48.453665] 📨 Webhook sent: 200
+[2025-08-10 19:37:48.462020] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:37:48.462304] ✅ Process completed
+[2025-08-10 19:37:48.462573] 📊 Summary:
+[2025-08-10 19:37:48.462823]   ├─ ⏱ Total execution time: 0:00:41.472829
+[2025-08-10 19:37:48.463055]   ├─ MP4 exported: FrontYard1.20250810_193703-193717.1024.mp4
+[2025-08-10 19:37:48.463299]   ├─ Main GIF: FrontYard1_081025_193738.gif
+[2025-08-10 19:37:48.463526]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:37:52.991212] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_193745.gif (30 frames)
+[2025-08-10 19:37:52.994540] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:37:53.317939] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_193753_mid.jpg
+[2025-08-10 19:37:53.319351] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:37:54.256176] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_193745.gif
+[2025-08-10 19:37:54.256486] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_193745.gif
+[2025-08-10 19:37:54.256702] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:37:55.022199] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_193753_mid.jpg
+[2025-08-10 19:37:55.022581] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_193753_mid.jpg
+[2025-08-10 19:37:55.022817] 📨 Sending webhook...
+[2025-08-10 19:37:55.802271] 📨 Webhook sent: 200
+[2025-08-10 19:37:55.810684] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:37:55.810925] ✅ Process completed
+[2025-08-10 19:37:55.811131] 📊 Summary:
+[2025-08-10 19:37:55.811335]   ├─ ⏱ Total execution time: 0:00:38.015570
+[2025-08-10 19:37:55.811524]   ├─ MP4 exported: FrontYardDW.20250810_193714-193727.1025.mp4
+[2025-08-10 19:37:55.811732]   ├─ Main GIF: FrontYardDW_081025_193745.gif
+[2025-08-10 19:37:55.811917]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:38:42.369996] 📩 Received alert:
+ ├─ Alert Handle: @54531430851140
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:38:37 PM
+[2025-08-10 19:38:42.408430] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:38:42.447415] ✅ Logged in: 41c31fa6263d4e3201c043012f1640ad
+[2025-08-10 19:38:42.455509] ✅ Using provided alert handle: @54531430851140
+[2025-08-10 19:38:42.455734] 📸 Final alert clip: @1905386119.bvr (Starts 5918133ms for 13022ms)
+[2025-08-10 19:38:42.530924] 📤 Export started
+[2025-08-10 19:39:03.102835] 📩 Received alert:
+ ├─ Alert Handle: @54531430872613
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:39:00 PM
+[2025-08-10 19:39:03.142409] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:39:03.216383] ✅ Logged in: 17ef600508053e6f6c2a531c6204492d
+[2025-08-10 19:39:03.226534] ✅ Using provided alert handle: @54531430872613
+[2025-08-10 19:39:03.226813] 📸 Final alert clip: @1905386119.bvr (Starts 5939606ms for 12818ms)
+[2025-08-10 19:39:03.319870] 📤 Export started
+[2025-08-10 19:39:07.535063] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_193838-193851.1026.mp4
+[2025-08-10 19:39:07.535638] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:39:14.575504] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_193907.gif (30 frames)
+[2025-08-10 19:39:14.578747] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:39:14.847092] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_193914_mid.jpg
+[2025-08-10 19:39:14.848374] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:39:16.029611] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_193907.gif
+[2025-08-10 19:39:16.029954] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_193907.gif
+[2025-08-10 19:39:16.030161] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:39:16.559278] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_193914_mid.jpg
+[2025-08-10 19:39:16.559662] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_193914_mid.jpg
+[2025-08-10 19:39:16.559889] 📨 Sending webhook...
+[2025-08-10 19:39:16.639812] 📨 Webhook sent: 200
+[2025-08-10 19:39:16.646643] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:39:16.646896] ✅ Process completed
+[2025-08-10 19:39:16.647123] 📊 Summary:
+[2025-08-10 19:39:16.647529]   ├─ ⏱ Total execution time: 0:00:34.283023
+[2025-08-10 19:39:16.647793]   ├─ MP4 exported: FrontYardDW.20250810_193838-193851.1026.mp4
+[2025-08-10 19:39:16.648045]   ├─ Main GIF: FrontYardDW_081025_193907.gif
+[2025-08-10 19:39:16.648311]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:39:22.505069] 📩 Received alert:
+ ├─ Alert Handle: @54531430892033
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:39:20 PM
+[2025-08-10 19:39:22.510547] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:39:22.514547] ✅ Logged in: 0d810adc68d106420e5638f724a13fca
+[2025-08-10 19:39:22.521932] ✅ Using provided alert handle: @54531430892033
+[2025-08-10 19:39:22.522170] 📸 Final alert clip: @1905386119.bvr (Starts 5959026ms for 13092ms)
+[2025-08-10 19:39:22.602698] 📤 Export started
+[2025-08-10 19:39:31.324038] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_193859-193912.1027.mp4
+[2025-08-10 19:39:31.324452] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:39:37.950350] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_193931.gif (30 frames)
+[2025-08-10 19:39:37.953825] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:39:38.221294] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_193938_mid.jpg
+[2025-08-10 19:39:38.222911] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:39:39.810637] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_193931.gif
+[2025-08-10 19:39:39.811130] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_193931.gif
+[2025-08-10 19:39:39.811633] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:39:40.094179] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_193938_mid.jpg
+[2025-08-10 19:39:40.094600] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_193938_mid.jpg
+[2025-08-10 19:39:40.094877] 📨 Sending webhook...
+[2025-08-10 19:39:40.138310] 📨 Webhook sent: 200
+[2025-08-10 19:39:40.146268] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:39:40.146531] ✅ Process completed
+[2025-08-10 19:39:40.146764] 📊 Summary:
+[2025-08-10 19:39:40.146996]   ├─ ⏱ Total execution time: 0:00:37.050531
+[2025-08-10 19:39:40.147230]   ├─ MP4 exported: FrontYardDW.20250810_193859-193912.1027.mp4
+[2025-08-10 19:39:40.147481]   ├─ Main GIF: FrontYardDW_081025_193931.gif
+[2025-08-10 19:39:40.147684]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:39:47.606867] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_193918-193931.1028.mp4
+[2025-08-10 19:39:47.607287] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:39:53.746486] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_193947.gif (30 frames)
+[2025-08-10 19:39:53.749829] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:39:54.017944] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_193953_mid.jpg
+[2025-08-10 19:39:54.019387] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:39:55.038607] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_193947.gif
+[2025-08-10 19:39:55.039049] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_193947.gif
+[2025-08-10 19:39:55.039348] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:39:55.568248] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_193953_mid.jpg
+[2025-08-10 19:39:55.568637] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_193953_mid.jpg
+[2025-08-10 19:39:55.568884] 📨 Sending webhook...
+[2025-08-10 19:39:55.642763] 📨 Webhook sent: 200
+[2025-08-10 19:39:55.651059] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:39:55.651350] ✅ Process completed
+[2025-08-10 19:39:55.651569] 📊 Summary:
+[2025-08-10 19:39:55.651793]   ├─ ⏱ Total execution time: 0:00:33.152831
+[2025-08-10 19:39:55.652004]   ├─ MP4 exported: FrontYardDW.20250810_193918-193931.1028.mp4
+[2025-08-10 19:39:55.652293]   ├─ Main GIF: FrontYardDW_081025_193947.gif
+[2025-08-10 19:39:55.652521]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:39:58.549799] 📩 Received alert:
+ ├─ Alert Handle: @54531430927915
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:39:54 PM
+[2025-08-10 19:39:58.554772] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:39:58.559191] ✅ Logged in: 16595a3c101d6a1a15b74c7b22a90b93
+[2025-08-10 19:39:58.566520] ✅ Using provided alert handle: @54531430927915
+[2025-08-10 19:39:58.566753] 📸 Final alert clip: @1905386119.bvr (Starts 5994908ms for 12968ms)
+[2025-08-10 19:39:58.610163] 📤 Export started
+[2025-08-10 19:40:14.019376] 📩 Received alert:
+ ├─ Alert Handle: @54531430943495
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:40:10 PM
+[2025-08-10 19:40:14.025391] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:40:14.029921] ✅ Logged in: 0c9b1ad60a835ce72e3d78907f7c50ec
+[2025-08-10 19:40:14.038209] ✅ Using provided alert handle: @54531430943495
+[2025-08-10 19:40:14.038462] 📸 Final alert clip: @1905386119.bvr (Starts 6010488ms for 13048ms)
+[2025-08-10 19:40:14.091732] 📤 Export started
+[2025-08-10 19:40:20.614323] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_193954-194007.1029.mp4
+[2025-08-10 19:40:20.615061] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:40:28.056540] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_194020.gif (30 frames)
+[2025-08-10 19:40:28.060303] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:40:28.428598] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_194028_mid.jpg
+[2025-08-10 19:40:28.430453] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:40:29.719125] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_194020.gif
+[2025-08-10 19:40:29.719678] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_194020.gif
+[2025-08-10 19:40:29.720207] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:40:30.194390] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_194028_mid.jpg
+[2025-08-10 19:40:30.195056] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_194028_mid.jpg
+[2025-08-10 19:40:30.195332] 📨 Sending webhook...
+[2025-08-10 19:40:30.257722] 📨 Webhook sent: 200
+[2025-08-10 19:40:30.268934] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:40:30.269201] ✅ Process completed
+[2025-08-10 19:40:30.269418] 📊 Summary:
+[2025-08-10 19:40:30.269620]   ├─ ⏱ Total execution time: 0:00:31.725992
+[2025-08-10 19:40:30.269830]   ├─ MP4 exported: FrontYardDW.20250810_193954-194007.1029.mp4
+[2025-08-10 19:40:30.270085]   ├─ Main GIF: FrontYardDW_081025_194020.gif
+[2025-08-10 19:40:30.270299]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:40:36.095509] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_194010-194023.1030.mp4
+[2025-08-10 19:40:36.095909] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:40:41.824248] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_194036.gif (30 frames)
+[2025-08-10 19:40:41.827622] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:40:42.109225] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_194042_mid.jpg
+[2025-08-10 19:40:42.110727] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:40:43.286484] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_194036.gif
+[2025-08-10 19:40:43.286911] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_194036.gif
+[2025-08-10 19:40:43.287362] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:40:43.665125] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_194042_mid.jpg
+[2025-08-10 19:40:43.665444] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_194042_mid.jpg
+[2025-08-10 19:40:43.665708] 📨 Sending webhook...
+[2025-08-10 19:40:43.713147] 📨 Webhook sent: 200
+[2025-08-10 19:40:43.722622] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:40:43.722893] ✅ Process completed
+[2025-08-10 19:40:43.723104] 📊 Summary:
+[2025-08-10 19:40:43.723317]   ├─ ⏱ Total execution time: 0:00:29.712320
+[2025-08-10 19:40:43.723533]   ├─ MP4 exported: FrontYardDW.20250810_194010-194023.1030.mp4
+[2025-08-10 19:40:43.723764]   ├─ Main GIF: FrontYardDW_081025_194036.gif
+[2025-08-10 19:40:43.723997]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:40:46.950687] 📩 Received alert:
+ ├─ Alert Handle: @54531430976475
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:40:43 PM
+[2025-08-10 19:40:46.955315] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:40:46.959324] ✅ Logged in: 38717a010d7b7d5473f771661b3e74f9
+[2025-08-10 19:40:46.966842] ✅ Using provided alert handle: @54531430976475
+[2025-08-10 19:40:46.967049] 📸 Final alert clip: @1905386119.bvr (Starts 6043468ms for 12966ms)
+[2025-08-10 19:40:47.046936] 📤 Export started
+[2025-08-10 19:41:15.050954] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_194043-194056.1031.mp4
+[2025-08-10 19:41:15.051408] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:41:21.762927] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_194115.gif (30 frames)
+[2025-08-10 19:41:21.766151] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:41:22.055051] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_194122_mid.jpg
+[2025-08-10 19:41:22.056665] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:41:23.164364] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_194115.gif
+[2025-08-10 19:41:23.164750] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_194115.gif
+[2025-08-10 19:41:23.164986] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:41:23.641618] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_194122_mid.jpg
+[2025-08-10 19:41:23.641974] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_194122_mid.jpg
+[2025-08-10 19:41:23.642249] 📨 Sending webhook...
+[2025-08-10 19:41:23.698407] 📨 Webhook sent: 200
+[2025-08-10 19:41:23.706595] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:41:23.706859] ✅ Process completed
+[2025-08-10 19:41:23.707113] 📊 Summary:
+[2025-08-10 19:41:23.707371]   ├─ ⏱ Total execution time: 0:00:36.762108
+[2025-08-10 19:41:23.707655]   ├─ MP4 exported: FrontYardDW.20250810_194043-194056.1031.mp4
+[2025-08-10 19:41:23.707950]   ├─ Main GIF: FrontYardDW_081025_194115.gif
+[2025-08-10 19:41:23.708219]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:42:02.871140] 📩 Received alert:
+ ├─ Alert Handle: @72123617093939
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:41:56 PM
+[2025-08-10 19:42:02.876986] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:42:02.880796] ✅ Logged in: 7e2d3abb24535a2e227076180f783d75
+[2025-08-10 19:42:02.922152] ✅ Using provided alert handle: @72123617093939
+[2025-08-10 19:42:02.922488] 📸 Final alert clip: @1905410402.bvr (Starts 6115334ms for 13858ms)
+[2025-08-10 19:42:02.967240] 📤 Export started
+[2025-08-10 19:42:30.970887] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_194156-194210.1032.mp4
+[2025-08-10 19:42:30.971376] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:42:34.520456] 📩 Received alert:
+ ├─ Alert Handle: @54531431083926
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:42:31 PM
+[2025-08-10 19:42:34.560681] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:42:34.633884] ✅ Logged in: 4164168b180561d5416955060e3a520f
+[2025-08-10 19:42:34.643726] ✅ Using provided alert handle: @54531431083926
+[2025-08-10 19:42:34.643989] 📸 Final alert clip: @1905386119.bvr (Starts 6150919ms for 13216ms)
+[2025-08-10 19:42:34.694569] 📤 Export started
+[2025-08-10 19:42:38.738501] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_194230.gif (30 frames)
+[2025-08-10 19:42:38.742472] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:42:39.097527] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_194239_mid.jpg
+[2025-08-10 19:42:39.099313] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:42:40.331808] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_194230.gif
+[2025-08-10 19:42:40.332475] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_194230.gif
+[2025-08-10 19:42:40.332718] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:42:40.772830] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_194239_mid.jpg
+[2025-08-10 19:42:40.773353] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_194239_mid.jpg
+[2025-08-10 19:42:40.773703] 📨 Sending webhook...
+[2025-08-10 19:42:40.839694] 📨 Webhook sent: 200
+[2025-08-10 19:42:40.847125] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:42:40.847353] ✅ Process completed
+[2025-08-10 19:42:40.847544] 📊 Summary:
+[2025-08-10 19:42:40.847743]   ├─ ⏱ Total execution time: 0:00:37.982711
+[2025-08-10 19:42:40.848015]   ├─ MP4 exported: FrontYard1.20250810_194156-194210.1032.mp4
+[2025-08-10 19:42:40.848313]   ├─ Main GIF: FrontYard1_081025_194230.gif
+[2025-08-10 19:42:40.848542]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:43:02.699416] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_194230-194244.1033.mp4
+[2025-08-10 19:43:02.699879] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:43:09.154314] 📩 Received alert:
+ ├─ Alert Handle: @72123617162497
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:43:05 PM
+[2025-08-10 19:43:09.160454] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:43:09.198767] ✅ Logged in: 555545982ac458bd36a905ab0e8a0b69
+[2025-08-10 19:43:09.206798] ✅ Using provided alert handle: @72123617162497
+[2025-08-10 19:43:09.207040] 📸 Final alert clip: @1905410402.bvr (Starts 6183892ms for 14170ms)
+[2025-08-10 19:43:09.258648] 📤 Export started
+[2025-08-10 19:43:10.857667] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_194302.gif (30 frames)
+[2025-08-10 19:43:10.860675] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:43:11.224353] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_194311_mid.jpg
+[2025-08-10 19:43:11.225666] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:43:12.407292] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_194302.gif
+[2025-08-10 19:43:12.407657] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_194302.gif
+[2025-08-10 19:43:12.407890] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:43:12.905778] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_194311_mid.jpg
+[2025-08-10 19:43:12.906131] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_194311_mid.jpg
+[2025-08-10 19:43:12.906399] 📨 Sending webhook...
+[2025-08-10 19:43:12.981579] 📨 Webhook sent: 200
+[2025-08-10 19:43:12.987978] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:43:12.988220] ✅ Process completed
+[2025-08-10 19:43:12.988413] 📊 Summary:
+[2025-08-10 19:43:12.988608]   ├─ ⏱ Total execution time: 0:00:38.475160
+[2025-08-10 19:43:12.988801]   ├─ MP4 exported: FrontYardDW.20250810_194230-194244.1033.mp4
+[2025-08-10 19:43:12.989007]   ├─ Main GIF: FrontYardDW_081025_194302.gif
+[2025-08-10 19:43:12.989230]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:43:34.262351] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_194304-194319.1034.mp4
+[2025-08-10 19:43:34.262781] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:43:41.409043] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_194334.gif (30 frames)
+[2025-08-10 19:43:41.412467] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:43:41.699548] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_194341_mid.jpg
+[2025-08-10 19:43:41.700747] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:43:42.853685] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_194334.gif
+[2025-08-10 19:43:42.853998] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_194334.gif
+[2025-08-10 19:43:42.854256] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:43:43.106724] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_194341_mid.jpg
+[2025-08-10 19:43:43.107131] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_194341_mid.jpg
+[2025-08-10 19:43:43.107415] 📨 Sending webhook...
+[2025-08-10 19:43:43.164887] 📨 Webhook sent: 200
+[2025-08-10 19:43:43.171714] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:43:43.171935] ✅ Process completed
+[2025-08-10 19:43:43.172187] 📊 Summary:
+[2025-08-10 19:43:43.172394]   ├─ ⏱ Total execution time: 0:00:34.024057
+[2025-08-10 19:43:43.172589]   ├─ MP4 exported: FrontYard1.20250810_194304-194319.1034.mp4
+[2025-08-10 19:43:43.172820]   ├─ Main GIF: FrontYard1_081025_194334.gif
+[2025-08-10 19:43:43.173049]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:43:55.974880] 📩 Received alert:
+ ├─ Alert Handle: @72123617209897
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:43:53 PM
+[2025-08-10 19:43:55.980647] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:43:56.052150] ✅ Logged in: 0a325bb47cd93fb371267b27654d60a7
+[2025-08-10 19:43:56.095286] ✅ Using provided alert handle: @72123617209897
+[2025-08-10 19:43:56.095615] 📸 Final alert clip: @1905410402.bvr (Starts 6231292ms for 13855ms)
+[2025-08-10 19:43:56.144495] 📤 Export started
+[2025-08-10 19:44:28.485728] 📩 Received alert:
+ ├─ Alert Handle: @72123617242697
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:44:24 PM
+[2025-08-10 19:44:28.490798] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:44:28.562782] ✅ Logged in: 6d2854aa64dd6e125e003d5d48f17f5b
+[2025-08-10 19:44:28.572008] ✅ Using provided alert handle: @72123617242697
+[2025-08-10 19:44:28.572328] 📸 Final alert clip: @1905410402.bvr (Starts 6264092ms for 13081ms)
+[2025-08-10 19:44:28.656887] 📤 Export started
+[2025-08-10 19:44:56.151599] ❌ Failed: Timeout waiting for exported file: FrontYard1.20250810_194352-194406.1035.mp4
+[2025-08-10 19:44:56.661261] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_194425-194438.1036.mp4
+[2025-08-10 19:44:56.661678] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:45:02.812052] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_194456.gif (30 frames)
+[2025-08-10 19:45:02.815520] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:45:03.106326] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_194503_mid.jpg
+[2025-08-10 19:45:03.107696] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:45:04.156753] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_194456.gif
+[2025-08-10 19:45:04.157131] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_194456.gif
+[2025-08-10 19:45:04.157380] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:45:04.622225] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_194503_mid.jpg
+[2025-08-10 19:45:04.622585] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_194503_mid.jpg
+[2025-08-10 19:45:04.622851] 📨 Sending webhook...
+[2025-08-10 19:45:04.685476] 📨 Webhook sent: 200
+[2025-08-10 19:45:04.692501] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:45:04.692774] ✅ Process completed
+[2025-08-10 19:45:04.692998] 📊 Summary:
+[2025-08-10 19:45:04.693217]   ├─ ⏱ Total execution time: 0:00:36.213816
+[2025-08-10 19:45:04.693426]   ├─ MP4 exported: FrontYard1.20250810_194425-194438.1036.mp4
+[2025-08-10 19:45:04.693641]   ├─ Main GIF: FrontYard1_081025_194456.gif
+[2025-08-10 19:45:04.693863]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:45:35.807607] 📩 Received alert:
+ ├─ Alert Handle: @72123617309827
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:45:31 PM
+[2025-08-10 19:45:35.812154] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:45:35.816521] ✅ Logged in: 653f7cf519453f7d799f7b2e086259b1
+[2025-08-10 19:45:35.823288] ✅ Using provided alert handle: @72123617309827
+[2025-08-10 19:45:35.823522] 📸 Final alert clip: @1905410402.bvr (Starts 6331222ms for 13734ms)
+[2025-08-10 19:45:35.867281] 📤 Export started
+[2025-08-10 19:45:56.403596] 📩 Received alert:
+ ├─ Alert Handle: @72123617330907
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:45:52 PM
+[2025-08-10 19:45:56.410734] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:45:56.451258] ✅ Logged in: 49c165375e7e2203704f3d8800bf60e4
+[2025-08-10 19:45:56.498592] ✅ Using provided alert handle: @72123617330907
+[2025-08-10 19:45:56.498980] 📸 Final alert clip: @1905410402.bvr (Starts 6352302ms for 13239ms)
+[2025-08-10 19:45:56.599699] 📤 Export started
+[2025-08-10 19:46:00.871340] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_194532-194545.1037.mp4
+[2025-08-10 19:46:00.871732] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:46:08.221283] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_194600.gif (30 frames)
+[2025-08-10 19:46:08.224649] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:46:08.507261] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_194608_mid.jpg
+[2025-08-10 19:46:08.508520] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:46:09.482573] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_194600.gif
+[2025-08-10 19:46:09.482894] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_194600.gif
+[2025-08-10 19:46:09.483174] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:46:09.790943] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_194608_mid.jpg
+[2025-08-10 19:46:09.791258] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_194608_mid.jpg
+[2025-08-10 19:46:09.791495] 📨 Sending webhook...
+[2025-08-10 19:46:09.849138] 📨 Webhook sent: 200
+[2025-08-10 19:46:09.855932] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:46:09.856160] ✅ Process completed
+[2025-08-10 19:46:09.856371] 📊 Summary:
+[2025-08-10 19:46:09.856578]   ├─ ⏱ Total execution time: 0:00:34.054671
+[2025-08-10 19:46:09.856770]   ├─ MP4 exported: FrontYard1.20250810_194532-194545.1037.mp4
+[2025-08-10 19:46:09.856986]   ├─ Main GIF: FrontYard1_081025_194600.gif
+[2025-08-10 19:46:09.857222]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:46:24.604404] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_194553-194606.1038.mp4
+[2025-08-10 19:46:24.604830] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:46:29.704953] 📩 Received alert:
+ ├─ Alert Handle: @54531431319297
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:46:26 PM
+[2025-08-10 19:46:29.709823] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:46:29.714564] ✅ Logged in: 7ef92d5173f57c07372307500dcd0936
+[2025-08-10 19:46:29.722259] ✅ Using provided alert handle: @54531431319297
+[2025-08-10 19:46:29.722466] 📸 Final alert clip: @1905386119.bvr (Starts 6386290ms for 12948ms)
+[2025-08-10 19:46:29.764912] 📤 Export started
+[2025-08-10 19:46:31.134039] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_194624.gif (30 frames)
+[2025-08-10 19:46:31.137372] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:46:31.418749] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_194631_mid.jpg
+[2025-08-10 19:46:31.420133] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:46:33.064335] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_194624.gif
+[2025-08-10 19:46:33.064702] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_194624.gif
+[2025-08-10 19:46:33.064933] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:46:33.513828] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_194631_mid.jpg
+[2025-08-10 19:46:33.514206] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_194631_mid.jpg
+[2025-08-10 19:46:33.514458] 📨 Sending webhook...
+[2025-08-10 19:46:33.603503] 📨 Webhook sent: 200
+[2025-08-10 19:46:33.611097] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:46:33.611353] ✅ Process completed
+[2025-08-10 19:46:33.611582] 📊 Summary:
+[2025-08-10 19:46:33.611823]   ├─ ⏱ Total execution time: 0:00:37.216657
+[2025-08-10 19:46:33.612057]   ├─ MP4 exported: FrontYard1.20250810_194553-194606.1038.mp4
+[2025-08-10 19:46:33.612289]   ├─ Main GIF: FrontYard1_081025_194624.gif
+[2025-08-10 19:46:33.612568]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:46:54.237717] 📩 Received alert:
+ ├─ Alert Handle: @72123617388097
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:46:51 PM
+[2025-08-10 19:46:54.242841] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:46:54.281082] ✅ Logged in: 2b7f6b316ff9088c274823bc3af14298
+[2025-08-10 19:46:54.322651] ✅ Using provided alert handle: @72123617388097
+[2025-08-10 19:46:54.322968] 📸 Final alert clip: @1905410402.bvr (Starts 6409492ms for 13978ms)
+[2025-08-10 19:46:54.403698] 📤 Export started
+[2025-08-10 19:46:59.770606] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_194626-194639.1039.mp4
+[2025-08-10 19:46:59.771041] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:47:06.820245] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_194659.gif (30 frames)
+[2025-08-10 19:47:06.823553] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:47:07.139728] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_194707_mid.jpg
+[2025-08-10 19:47:07.141342] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:47:08.205864] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_194659.gif
+[2025-08-10 19:47:08.206228] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_194659.gif
+[2025-08-10 19:47:08.206479] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:47:08.877501] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_194707_mid.jpg
+[2025-08-10 19:47:08.877874] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_194707_mid.jpg
+[2025-08-10 19:47:08.878131] 📨 Sending webhook...
+[2025-08-10 19:47:08.950650] 📨 Webhook sent: 200
+[2025-08-10 19:47:08.959076] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:47:08.959348] ✅ Process completed
+[2025-08-10 19:47:08.959592] 📊 Summary:
+[2025-08-10 19:47:08.959831]   ├─ ⏱ Total execution time: 0:00:39.260901
+[2025-08-10 19:47:08.960041]   ├─ MP4 exported: FrontYardDW.20250810_194626-194639.1039.mp4
+[2025-08-10 19:47:08.960264]   ├─ Main GIF: FrontYardDW_081025_194659.gif
+[2025-08-10 19:47:08.960472]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:47:24.408959] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_194650-194704.1040.mp4
+[2025-08-10 19:47:24.409482] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:47:31.196734] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_194724.gif (30 frames)
+[2025-08-10 19:47:31.200364] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:47:31.482431] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_194731_mid.jpg
+[2025-08-10 19:47:31.483776] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:47:32.660045] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_194724.gif
+[2025-08-10 19:47:32.660366] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_194724.gif
+[2025-08-10 19:47:32.660628] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:47:32.919525] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_194731_mid.jpg
+[2025-08-10 19:47:32.919895] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_194731_mid.jpg
+[2025-08-10 19:47:32.920154] 📨 Sending webhook...
+[2025-08-10 19:47:32.980643] 📨 Webhook sent: 200
+[2025-08-10 19:47:32.987097] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:47:32.987337] ✅ Process completed
+[2025-08-10 19:47:32.987538] 📊 Summary:
+[2025-08-10 19:47:32.987758]   ├─ ⏱ Total execution time: 0:00:38.756207
+[2025-08-10 19:47:32.988018]   ├─ MP4 exported: FrontYard1.20250810_194650-194704.1040.mp4
+[2025-08-10 19:47:32.988253]   ├─ Main GIF: FrontYard1_081025_194724.gif
+[2025-08-10 19:47:32.988501]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:47:54.981501] 📩 Received alert:
+ ├─ Alert Handle: @72123617449197
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:47:50 PM
+[2025-08-10 19:47:54.986207] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:47:54.990194] ✅ Logged in: 74d42c1501d40dc17889501622b94905
+[2025-08-10 19:47:54.997228] ✅ Using provided alert handle: @72123617449197
+[2025-08-10 19:47:54.997469] 📸 Final alert clip: @1905410402.bvr (Starts 6470592ms for 13568ms)
+[2025-08-10 19:47:55.081850] 📤 Export started
+[2025-08-10 19:48:17.085996] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_194751-194805.1041.mp4
+[2025-08-10 19:48:17.086609] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:48:23.578565] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_194817.gif (30 frames)
+[2025-08-10 19:48:23.581777] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:48:23.849891] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_194823_mid.jpg
+[2025-08-10 19:48:23.851290] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:48:23.972308] 📩 Received alert:
+ ├─ Alert Handle: @72123617478527
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:48:20 PM
+[2025-08-10 19:48:23.977080] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:48:23.980674] ✅ Logged in: 0662050010a663044cd157b961c23ad6
+[2025-08-10 19:48:23.987336] ✅ Using provided alert handle: @72123617478527
+[2025-08-10 19:48:23.987573] 📸 Final alert clip: @1905410402.bvr (Starts 6499922ms for 13212ms)
+[2025-08-10 19:48:24.036414] 📤 Export started
+[2025-08-10 19:48:25.052021] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_194817.gif
+[2025-08-10 19:48:25.052460] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_194817.gif
+[2025-08-10 19:48:25.052836] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:48:25.498245] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_194823_mid.jpg
+[2025-08-10 19:48:25.498649] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_194823_mid.jpg
+[2025-08-10 19:48:25.498899] 📨 Sending webhook...
+[2025-08-10 19:48:25.552985] 📨 Webhook sent: 200
+[2025-08-10 19:48:25.560389] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:48:25.560645] ✅ Process completed
+[2025-08-10 19:48:25.560833] 📊 Summary:
+[2025-08-10 19:48:25.561044]   ├─ ⏱ Total execution time: 0:00:30.585284
+[2025-08-10 19:48:25.561389]   ├─ MP4 exported: FrontYard1.20250810_194751-194805.1041.mp4
+[2025-08-10 19:48:25.561690]   ├─ Main GIF: FrontYard1_081025_194817.gif
+[2025-08-10 19:48:25.561914]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:48:54.041587] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_194820-194834.1042.mp4
+[2025-08-10 19:48:54.042053] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:49:00.761640] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_194854.gif (30 frames)
+[2025-08-10 19:49:00.764805] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:49:01.093055] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_194901_mid.jpg
+[2025-08-10 19:49:01.094492] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:49:02.291833] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_194854.gif
+[2025-08-10 19:49:02.292193] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_194854.gif
+[2025-08-10 19:49:02.292388] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:49:02.779858] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_194901_mid.jpg
+[2025-08-10 19:49:02.780270] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_194901_mid.jpg
+[2025-08-10 19:49:02.780525] 📨 Sending webhook...
+[2025-08-10 19:49:02.823807] 📨 Webhook sent: 200
+[2025-08-10 19:49:02.829994] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:49:02.830213] ✅ Process completed
+[2025-08-10 19:49:02.830446] 📊 Summary:
+[2025-08-10 19:49:02.830640]   ├─ ⏱ Total execution time: 0:00:38.864093
+[2025-08-10 19:49:02.830864]   ├─ MP4 exported: FrontYard1.20250810_194820-194834.1042.mp4
+[2025-08-10 19:49:02.831074]   ├─ Main GIF: FrontYard1_081025_194854.gif
+[2025-08-10 19:49:02.831303]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:49:40.935839] 📩 Received alert:
+ ├─ Alert Handle: @72123617554997
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:49:38 PM
+[2025-08-10 19:49:40.940471] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:49:40.944815] ✅ Logged in: 58112a0f77d56ed35880599d67631096
+[2025-08-10 19:49:40.951660] ✅ Using provided alert handle: @72123617554997
+[2025-08-10 19:49:40.951861] 📸 Final alert clip: @1905410402.bvr (Starts 6576392ms for 13851ms)
+[2025-08-10 19:49:41.001773] 📤 Export started
+[2025-08-10 19:50:05.833107] 📩 Received alert:
+ ├─ Alert Handle: @72123617580527
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:50:02 PM
+[2025-08-10 19:50:05.838689] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:50:05.843133] ✅ Logged in: 30472c6458543c0f2fc175a207de4e34
+[2025-08-10 19:50:05.850222] ✅ Using provided alert handle: @72123617580527
+[2025-08-10 19:50:05.850436] 📸 Final alert clip: @1905410402.bvr (Starts 6601922ms for 13215ms)
+[2025-08-10 19:50:05.897453] 📤 Export started
+[2025-08-10 19:50:36.902065] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_195002-195016.1044.mp4
+[2025-08-10 19:50:36.902511] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:50:41.008790] ❌ Failed: Timeout waiting for exported file: FrontYard1.20250810_194937-194951.1043.mp4
+[2025-08-10 19:50:43.156040] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_195036.gif (30 frames)
+[2025-08-10 19:50:43.159493] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:50:43.445060] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_195043_mid.jpg
+[2025-08-10 19:50:43.446421] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:50:44.792770] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_195036.gif
+[2025-08-10 19:50:44.793170] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_195036.gif
+[2025-08-10 19:50:44.793413] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:50:45.242837] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_195043_mid.jpg
+[2025-08-10 19:50:45.243241] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_195043_mid.jpg
+[2025-08-10 19:50:45.243535] 📨 Sending webhook...
+[2025-08-10 19:50:45.322553] 📨 Webhook sent: 200
+[2025-08-10 19:50:45.329642] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:50:45.329868] ✅ Process completed
+[2025-08-10 19:50:45.330054] 📊 Summary:
+[2025-08-10 19:50:45.330240]   ├─ ⏱ Total execution time: 0:00:39.502169
+[2025-08-10 19:50:45.330445]   ├─ MP4 exported: FrontYard1.20250810_195002-195016.1044.mp4
+[2025-08-10 19:50:45.330655]   ├─ Main GIF: FrontYard1_081025_195036.gif
+[2025-08-10 19:50:45.330867]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:51:08.442000] 📩 Received alert:
+ ├─ Alert Handle: @72123617642510
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:51:04 PM
+[2025-08-10 19:51:08.446629] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:51:08.485417] ✅ Logged in: 329d113123347a2a67eb001139016cd7
+[2025-08-10 19:51:08.527621] ✅ Using provided alert handle: @72123617642510
+[2025-08-10 19:51:08.527967] 📸 Final alert clip: @1905410402.bvr (Starts 6663905ms for 13757ms)
+[2025-08-10 19:51:08.610393] 📤 Export started
+[2025-08-10 19:51:35.614657] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_195104-195118.1045.mp4
+[2025-08-10 19:51:35.615029] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:51:42.705052] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_195135.gif (30 frames)
+[2025-08-10 19:51:42.708497] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:51:43.012577] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_195142_mid.jpg
+[2025-08-10 19:51:43.013994] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:51:43.483224] 📩 Received alert:
+ ├─ Alert Handle: @54531431633040
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:51:40 PM
+[2025-08-10 19:51:43.488934] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:51:43.493114] ✅ Logged in: 7cff4a3d41082a1f05fb721961192bd8
+[2025-08-10 19:51:43.500252] ✅ Using provided alert handle: @54531431633040
+[2025-08-10 19:51:43.500488] 📸 Final alert clip: @1905386119.bvr (Starts 6700033ms for 13000ms)
+[2025-08-10 19:51:43.547007] 📤 Export started
+[2025-08-10 19:51:43.993165] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_195135.gif
+[2025-08-10 19:51:43.993530] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_195135.gif
+[2025-08-10 19:51:43.993772] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:51:44.259139] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_195142_mid.jpg
+[2025-08-10 19:51:44.259475] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_195142_mid.jpg
+[2025-08-10 19:51:44.259727] 📨 Sending webhook...
+[2025-08-10 19:51:44.330997] 📨 Webhook sent: 200
+[2025-08-10 19:51:44.337856] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:51:44.338069] ✅ Process completed
+[2025-08-10 19:51:44.338262] 📊 Summary:
+[2025-08-10 19:51:44.338455]   ├─ ⏱ Total execution time: 0:00:35.902223
+[2025-08-10 19:51:44.338645]   ├─ MP4 exported: FrontYard1.20250810_195104-195118.1045.mp4
+[2025-08-10 19:51:44.338855]   ├─ Main GIF: FrontYard1_081025_195135.gif
+[2025-08-10 19:51:44.339076]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:51:48.406541] 📩 Received alert:
+ ├─ Alert Handle: @72123617682410
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:51:46 PM
+[2025-08-10 19:51:48.413147] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:51:48.418964] ✅ Logged in: 0cb1244a493a248400c8284673fa6aa8
+[2025-08-10 19:51:48.427156] ✅ Using provided alert handle: @72123617682410
+[2025-08-10 19:51:48.427404] 📸 Final alert clip: @1905410402.bvr (Starts 6703805ms for 13856ms)
+[2025-08-10 19:51:48.511598] 📤 Export started
+[2025-08-10 19:52:11.551848] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_195139-195152.1046.mp4
+[2025-08-10 19:52:11.552416] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:52:21.181544] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_195211.gif (30 frames)
+[2025-08-10 19:52:21.186204] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:52:21.479392] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_195221_mid.jpg
+[2025-08-10 19:52:21.480929] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:52:22.895784] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_195211.gif
+[2025-08-10 19:52:22.896141] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_195211.gif
+[2025-08-10 19:52:22.896358] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:52:23.376735] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_195221_mid.jpg
+[2025-08-10 19:52:23.377120] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_195221_mid.jpg
+[2025-08-10 19:52:23.377365] 📨 Sending webhook...
+[2025-08-10 19:52:23.428492] 📨 Webhook sent: 200
+[2025-08-10 19:52:23.434870] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:52:23.435090] ✅ Process completed
+[2025-08-10 19:52:23.435325] 📊 Summary:
+[2025-08-10 19:52:23.435519]   ├─ ⏱ Total execution time: 0:00:39.958888
+[2025-08-10 19:52:23.435704]   ├─ MP4 exported: FrontYardDW.20250810_195139-195152.1046.mp4
+[2025-08-10 19:52:23.435903]   ├─ Main GIF: FrontYardDW_081025_195211.gif
+[2025-08-10 19:52:23.436088]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:52:24.518068] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_195144-195158.1047.mp4
+[2025-08-10 19:52:24.518548] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:52:32.045776] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_195224.gif (30 frames)
+[2025-08-10 19:52:32.049791] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:52:32.341813] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_195232_mid.jpg
+[2025-08-10 19:52:32.343272] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:52:33.349803] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_195224.gif
+[2025-08-10 19:52:33.350151] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_195224.gif
+[2025-08-10 19:52:33.350390] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:52:33.588265] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_195232_mid.jpg
+[2025-08-10 19:52:33.588635] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_195232_mid.jpg
+[2025-08-10 19:52:33.588919] 📨 Sending webhook...
+[2025-08-10 19:52:33.663093] 📨 Webhook sent: 200
+[2025-08-10 19:52:33.671645] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:52:33.671988] ✅ Process completed
+[2025-08-10 19:52:33.672258] 📊 Summary:
+[2025-08-10 19:52:33.672468]   ├─ ⏱ Total execution time: 0:00:45.271587
+[2025-08-10 19:52:33.672671]   ├─ MP4 exported: FrontYard1.20250810_195144-195158.1047.mp4
+[2025-08-10 19:52:33.672921]   ├─ Main GIF: FrontYard1_081025_195224.gif
+[2025-08-10 19:52:33.673275]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:52:33.904202] 📩 Received alert:
+ ├─ Alert Handle: @72123617727610
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:52:30 PM
+[2025-08-10 19:52:33.909048] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:52:33.912872] ✅ Logged in: 707e4d08376a017f38d270b67b572eff
+[2025-08-10 19:52:33.921263] ✅ Using provided alert handle: @72123617727610
+[2025-08-10 19:52:33.921504] 📸 Final alert clip: @1905410402.bvr (Starts 6749005ms for 13953ms)
+[2025-08-10 19:52:33.963943] 📤 Export started
+[2025-08-10 19:53:03.970224] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_195229-195243.1048.mp4
+[2025-08-10 19:53:03.970670] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:53:11.092083] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_195303.gif (30 frames)
+[2025-08-10 19:53:11.096282] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:53:11.370341] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_195311_mid.jpg
+[2025-08-10 19:53:11.372186] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:53:12.619963] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_195303.gif
+[2025-08-10 19:53:12.620314] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_195303.gif
+[2025-08-10 19:53:12.620707] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:53:13.017362] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_195311_mid.jpg
+[2025-08-10 19:53:13.017790] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_195311_mid.jpg
+[2025-08-10 19:53:13.018137] 📨 Sending webhook...
+[2025-08-10 19:53:13.065486] 📨 Webhook sent: 200
+[2025-08-10 19:53:13.074431] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:53:13.074699] ✅ Process completed
+[2025-08-10 19:53:13.074902] 📊 Summary:
+[2025-08-10 19:53:13.075098]   ├─ ⏱ Total execution time: 0:00:39.176194
+[2025-08-10 19:53:13.075298]   ├─ MP4 exported: FrontYard1.20250810_195229-195243.1048.mp4
+[2025-08-10 19:53:13.075510]   ├─ Main GIF: FrontYard1_081025_195303.gif
+[2025-08-10 19:53:13.075728]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:53:14.184425] 📩 Received alert:
+ ├─ Alert Handle: @54531431723816
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:53:11 PM
+[2025-08-10 19:53:14.189479] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:53:14.193762] ✅ Logged in: 38a655e73d283f9b7ad776395fe530d4
+[2025-08-10 19:53:14.200773] ✅ Using provided alert handle: @54531431723816
+[2025-08-10 19:53:14.200997] 📸 Final alert clip: @1905386119.bvr (Starts 6790809ms for 12764ms)
+[2025-08-10 19:53:14.246203] 📤 Export started
+[2025-08-10 19:53:24.189145] 📩 Received alert:
+ ├─ Alert Handle: @72123617777740
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:53:20 PM
+[2025-08-10 19:53:24.194372] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:53:24.198131] ✅ Logged in: 54cd7ecf35bc6a2016052e5545723074
+[2025-08-10 19:53:24.206035] ✅ Using provided alert handle: @72123617777740
+[2025-08-10 19:53:24.206316] 📸 Final alert clip: @1905410402.bvr (Starts 6799135ms for 14055ms)
+[2025-08-10 19:53:24.254201] 📤 Export started
+[2025-08-10 19:53:42.251083] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_195310-195323.1049.mp4
+[2025-08-10 19:53:42.251501] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:53:52.227242] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_195342.gif (30 frames)
+[2025-08-10 19:53:52.231497] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:53:52.590526] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_195352_mid.jpg
+[2025-08-10 19:53:52.592654] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:53:53.802567] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_195342.gif
+[2025-08-10 19:53:53.802913] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_195342.gif
+[2025-08-10 19:53:53.803125] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:53:54.258571] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_195320-195334.1050.mp4
+[2025-08-10 19:53:54.258965] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:53:54.300018] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_195352_mid.jpg
+[2025-08-10 19:53:54.300437] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_195352_mid.jpg
+[2025-08-10 19:53:54.300682] 📨 Sending webhook...
+[2025-08-10 19:53:54.373385] 📨 Webhook sent: 200
+[2025-08-10 19:53:54.383844] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:53:54.384190] ✅ Process completed
+[2025-08-10 19:53:54.384469] 📊 Summary:
+[2025-08-10 19:53:54.384710]   ├─ ⏱ Total execution time: 0:00:40.206331
+[2025-08-10 19:53:54.384938]   ├─ MP4 exported: FrontYardDW.20250810_195310-195323.1049.mp4
+[2025-08-10 19:53:54.385218]   ├─ Main GIF: FrontYardDW_081025_195342.gif
+[2025-08-10 19:53:54.385432]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:54:01.823960] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_195354.gif (30 frames)
+[2025-08-10 19:54:01.828062] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:54:02.111716] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_195402_mid.jpg
+[2025-08-10 19:54:02.113145] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:54:03.045146] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_195354.gif
+[2025-08-10 19:54:03.045525] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_195354.gif
+[2025-08-10 19:54:03.045780] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:54:03.339338] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_195402_mid.jpg
+[2025-08-10 19:54:03.339687] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_195402_mid.jpg
+[2025-08-10 19:54:03.339912] 📨 Sending webhook...
+[2025-08-10 19:54:03.379353] 📨 Webhook sent: 200
+[2025-08-10 19:54:03.386039] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:54:03.386268] ✅ Process completed
+[2025-08-10 19:54:03.386472] 📊 Summary:
+[2025-08-10 19:54:03.386687]   ├─ ⏱ Total execution time: 0:00:39.204520
+[2025-08-10 19:54:03.386883]   ├─ MP4 exported: FrontYard1.20250810_195320-195334.1050.mp4
+[2025-08-10 19:54:03.387113]   ├─ Main GIF: FrontYard1_081025_195354.gif
+[2025-08-10 19:54:03.387355]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:54:25.745525] 📩 Received alert:
+ ├─ Alert Handle: @72123617839610
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:54:22 PM
+[2025-08-10 19:54:25.751781] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:54:25.755973] ✅ Logged in: 48f9798a078b3e1167013bf7175641af
+[2025-08-10 19:54:25.763027] ✅ Using provided alert handle: @72123617839610
+[2025-08-10 19:54:25.763234] 📸 Final alert clip: @1905410402.bvr (Starts 6861005ms for 13865ms)
+[2025-08-10 19:54:25.804789] 📤 Export started
+[2025-08-10 19:54:47.530044] 📩 Received alert:
+ ├─ Alert Handle: @54531431817069
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:54:44 PM
+[2025-08-10 19:54:47.536259] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:54:47.540568] ✅ Logged in: 442d0baa43b747e27c9b3d4f558b5791
+[2025-08-10 19:54:47.553479] ✅ Using provided alert handle: @54531431817069
+[2025-08-10 19:54:47.553782] 📸 Final alert clip: @1905386119.bvr (Starts 6884062ms for 12875ms)
+[2025-08-10 19:54:47.603634] 📤 Export started
+[2025-08-10 19:54:58.810093] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_195421-195435.1051.mp4
+[2025-08-10 19:54:58.810656] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:55:07.595392] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_195458.gif (30 frames)
+[2025-08-10 19:55:07.599423] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:55:07.906515] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_195507_mid.jpg
+[2025-08-10 19:55:07.907879] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:55:10.745863] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_195458.gif
+[2025-08-10 19:55:10.746220] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_195458.gif
+[2025-08-10 19:55:10.746473] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:55:11.539912] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_195507_mid.jpg
+[2025-08-10 19:55:11.540347] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_195507_mid.jpg
+[2025-08-10 19:55:11.540613] 📨 Sending webhook...
+[2025-08-10 19:55:11.822993] 📨 Webhook sent: 200
+[2025-08-10 19:55:11.829714] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:55:11.829926] ✅ Process completed
+[2025-08-10 19:55:11.830128] 📊 Summary:
+[2025-08-10 19:55:11.830317]   ├─ ⏱ Total execution time: 0:00:46.090880
+[2025-08-10 19:55:11.830509]   ├─ MP4 exported: FrontYard1.20250810_195421-195435.1051.mp4
+[2025-08-10 19:55:11.830713]   ├─ Main GIF: FrontYard1_081025_195458.gif
+[2025-08-10 19:55:11.830904]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:55:14.609302] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_195443-195456.1052.mp4
+[2025-08-10 19:55:14.609832] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:55:18.199363] 📩 Received alert:
+ ├─ Alert Handle: @54531431847003
+ ├─ Camera: FrontYardDW
+ └─ Timestamp: 7:55:14 PM
+[2025-08-10 19:55:18.206189] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:55:18.245734] ✅ Logged in: 4b7d2e0b7bb3068a2c6336921d005ecf
+[2025-08-10 19:55:18.261106] ✅ Using provided alert handle: @54531431847003
+[2025-08-10 19:55:18.261473] 📸 Final alert clip: @1905386119.bvr (Starts 6913996ms for 12906ms)
+[2025-08-10 19:55:18.348275] 📤 Export started
+[2025-08-10 19:55:22.619675] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_195514.gif (30 frames)
+[2025-08-10 19:55:22.623117] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:55:22.938619] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_195522_mid.jpg
+[2025-08-10 19:55:22.940308] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:55:25.209227] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_195514.gif
+[2025-08-10 19:55:25.209734] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_195514.gif
+[2025-08-10 19:55:25.210090] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:55:25.868958] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_195522_mid.jpg
+[2025-08-10 19:55:25.869602] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_195522_mid.jpg
+[2025-08-10 19:55:25.870049] 📨 Sending webhook...
+[2025-08-10 19:55:26.133399] 📨 Webhook sent: 200
+[2025-08-10 19:55:26.143349] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:55:26.143668] ✅ Process completed
+[2025-08-10 19:55:26.143871] 📊 Summary:
+[2025-08-10 19:55:26.144110]   ├─ ⏱ Total execution time: 0:00:38.620371
+[2025-08-10 19:55:26.144327]   ├─ MP4 exported: FrontYardDW.20250810_195443-195456.1052.mp4
+[2025-08-10 19:55:26.144554]   ├─ Main GIF: FrontYardDW_081025_195514.gif
+[2025-08-10 19:55:26.144813]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:55:43.352926] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYardDW.20250810_195513-195526.1053.mp4
+[2025-08-10 19:55:43.353408] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:55:51.159045] ✅ GIF created: C:\bi_alerts\FrontYardDW_081025_195543.gif (30 frames)
+[2025-08-10 19:55:51.162322] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:55:51.439448] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYardDW_081025_195551_mid.jpg
+[2025-08-10 19:55:51.440844] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:55:52.729718] ✅ Uploaded to MinIO: alerts/FrontYardDW_081025_195543.gif
+[2025-08-10 19:55:52.730094] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYardDW_081025_195543.gif
+[2025-08-10 19:55:52.730321] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:55:53.294000] ✅ Uploaded to MinIO: alert_frames/FrontYardDW_081025_195551_mid.jpg
+[2025-08-10 19:55:53.294390] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYardDW_081025_195551_mid.jpg
+[2025-08-10 19:55:53.294686] 📨 Sending webhook...
+[2025-08-10 19:55:53.370841] 📨 Webhook sent: 200
+[2025-08-10 19:55:53.378135] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:55:53.378415] ✅ Process completed
+[2025-08-10 19:55:53.378626] 📊 Summary:
+[2025-08-10 19:55:53.378846]   ├─ ⏱ Total execution time: 0:00:35.187484
+[2025-08-10 19:55:53.379065]   ├─ MP4 exported: FrontYardDW.20250810_195513-195526.1053.mp4
+[2025-08-10 19:55:53.379303]   ├─ Main GIF: FrontYardDW_081025_195543.gif
+[2025-08-10 19:55:53.379513]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:58:15.839094] 📩 Received alert:
+ ├─ Alert Handle: @72123618069552
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:58:12 PM
+[2025-08-10 19:58:15.844046] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:58:15.848555] ✅ Logged in: 4c041aef0b6c199d4430473c1b6538ca
+[2025-08-10 19:58:15.857918] ✅ Using provided alert handle: @72123618069552
+[2025-08-10 19:58:15.858199] 📸 Final alert clip: @1905410402.bvr (Starts 7090947ms for 13958ms)
+[2025-08-10 19:58:15.912663] 📤 Export started
+[2025-08-10 19:58:38.555072] 📩 Received alert:
+ ├─ Alert Handle: @72123618092359
+ ├─ Camera: FrontYard1
+ └─ Timestamp: 7:58:35 PM
+[2025-08-10 19:58:38.560068] 🔄 Reusing cached Blue Iris session from artifact.json
+[2025-08-10 19:58:38.563678] ✅ Logged in: 261c70541f5852ed0f4b555334855a8f
+[2025-08-10 19:58:38.603947] ✅ Using provided alert handle: @72123618092359
+[2025-08-10 19:58:38.604257] 📸 Final alert clip: @1905410402.bvr (Starts 7113754ms for 13837ms)
+[2025-08-10 19:58:38.682069] 📤 Export started
+[2025-08-10 19:58:40.916501] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_195811-195825.1054.mp4
+[2025-08-10 19:58:40.916951] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:58:49.163429] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_195840.gif (30 frames)
+[2025-08-10 19:58:49.166483] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:58:49.484284] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_195849_mid.jpg
+[2025-08-10 19:58:49.485902] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:58:50.641151] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_195840.gif
+[2025-08-10 19:58:50.641599] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_195840.gif
+[2025-08-10 19:58:50.641854] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:58:50.896836] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_195849_mid.jpg
+[2025-08-10 19:58:50.897220] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_195849_mid.jpg
+[2025-08-10 19:58:50.897427] 📨 Sending webhook...
+[2025-08-10 19:58:50.969480] 📨 Webhook sent: 200
+[2025-08-10 19:58:50.978178] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:58:50.978435] ✅ Process completed
+[2025-08-10 19:58:50.978644] 📊 Summary:
+[2025-08-10 19:58:50.978840]   ├─ ⏱ Total execution time: 0:00:35.145053
+[2025-08-10 19:58:50.979027]   ├─ MP4 exported: FrontYard1.20250810_195811-195825.1054.mp4
+[2025-08-10 19:58:50.979222]   ├─ Main GIF: FrontYard1_081025_195840.gif
+[2025-08-10 19:58:50.979413]   └─ JPEG frames: 1 uploaded
+[2025-08-10 19:59:06.686886] ✅ Found exported file: C:\Blue Iris\New\Clipboard\FrontYard1.20250810_195834-195848.1055.mp4
+[2025-08-10 19:59:06.687338] 🎬 Converting MP4 to GIF...
+[2025-08-10 19:59:13.805851] ✅ GIF created: C:\bi_alerts\FrontYard1_081025_195906.gif (30 frames)
+[2025-08-10 19:59:13.809594] 📸 Extracting single mid-frame JPEG...
+[2025-08-10 19:59:14.091820] ✅ Extracted middle-frame JPEG: C:\bi_alerts\frames\FrontYard1_081025_195914_mid.jpg
+[2025-08-10 19:59:14.093232] 📤 Uploading main GIF to MinIO...
+[2025-08-10 19:59:15.240558] ✅ Uploaded to MinIO: alerts/FrontYard1_081025_195906.gif
+[2025-08-10 19:59:15.240885] ✅ Main GIF uploaded: https://minio.tsmithit.net/bialerts/alerts/FrontYard1_081025_195906.gif
+[2025-08-10 19:59:15.241111] 📤 Uploading mid-frame JPEG to MinIO...
+[2025-08-10 19:59:15.756380] ✅ Uploaded to MinIO: alert_frames/FrontYard1_081025_195914_mid.jpg
+[2025-08-10 19:59:15.756731] ✅ Mid-frame JPEG uploaded: https://minio.tsmithit.net/bialerts/alert_frames/FrontYard1_081025_195914_mid.jpg
+[2025-08-10 19:59:15.756994] 📨 Sending webhook...
+[2025-08-10 19:59:15.809478] 📨 Webhook sent: 200
+[2025-08-10 19:59:15.816122] 🗂  artifact.json updated: session, Alert, Camera, Timestamp
+[2025-08-10 19:59:15.816366] ✅ Process completed
+[2025-08-10 19:59:15.816587] 📊 Summary:
+[2025-08-10 19:59:15.816803]   ├─ ⏱ Total execution time: 0:00:37.267165
+[2025-08-10 19:59:15.817018]   ├─ MP4 exported: FrontYard1.20250810_195834-195848.1055.mp4
+[2025-08-10 19:59:15.817250]   ├─ Main GIF: FrontYard1_081025_195906.gif
+[2025-08-10 19:59:15.817495]   └─ JPEG frames: 1 uploaded
