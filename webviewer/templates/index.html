@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Iris Alert Logs</title>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
     <style>
         :root {
             --bg-color: #f5f5f5;
@@ -387,7 +388,34 @@
         document.addEventListener('DOMContentLoaded', function() {
             loadAlerts();
             loadStats();
+
+            // Connect to Socket.IO
+            const socket = io();
+
+            socket.on('connect', () => {
+                console.log('Connected to server via Socket.IO');
+            });
+
+            socket.on('new_alert', (alert) => {
+                console.log('New alert received:', alert);
+                handleNewAlert(alert);
+            });
         });
+
+        function handleNewAlert(alert) {
+            // Add to the start of the alerts array
+            currentAlerts.unshift(alert);
+
+            // If we have more than 50 alerts, remove the oldest one
+            if (currentAlerts.length > 50) {
+                currentAlerts.pop();
+            }
+
+            // Update UI
+            updateCameraFilter();
+            filterByCamera(); // This will re-render the list
+            loadStats(); // Refresh stats
+        }
 
         function toggleDarkMode() {
             const currentTheme = document.documentElement.getAttribute('data-theme');
@@ -613,11 +641,11 @@
             }
         }
 
-        // Auto-refresh every 30 seconds
-        setInterval(() => {
-            loadAlerts();
-            loadStats();
-        }, 30000);
+        // No longer needed with Socket.IO
+        // setInterval(() => {
+        //     loadAlerts();
+        //     loadStats();
+        // }, 30000);
     </script>
 </body>
 </html>

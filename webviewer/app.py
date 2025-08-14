@@ -22,6 +22,7 @@ except ImportError:
 sys.path.insert(0, str(Config.SCRIPTS_BASE_DIR))
 
 from flask import Flask, render_template, jsonify, request
+from flask_socketio import SocketIO
 from datetime import datetime
 from dotenv import load_dotenv
 
@@ -68,6 +69,7 @@ if not env_loaded:
 
 app = Flask(__name__)
 app.config['DEBUG'] = Config.DEBUG
+socketio = SocketIO(app)
 
 # Global database logger
 db_logger = None
@@ -106,6 +108,27 @@ def index():
     """Main page."""
     return render_template('index.html')
 
+def format_alert_for_json(alert):
+    """Helper function to format an alert dictionary for JSON serialization."""
+    created_at = alert.get('created_at')
+    if isinstance(created_at, datetime):
+        created_at = created_at.isoformat()
+
+    return {
+        'id': alert.get('id'),
+        'camera': alert.get('camera'),
+        'timestamp': alert.get('timestamp'),
+        'alert_handle': alert.get('alert_handle'),
+        'gif_url': alert.get('gif_url'),
+        'jpeg_urls': alert.get('jpeg_urls', []),
+        'jpeg_count': alert.get('jpeg_count', 0),
+        'success': alert.get('success', False),
+        'error_message': alert.get('error_message'),
+        'debug_mode': alert.get('debug_mode', False),
+        'created_at': created_at
+    }
+
+
 @app.route('/api/alerts')
 def get_alerts():
     """API endpoint to get alert logs."""
@@ -119,26 +142,7 @@ def get_alerts():
         alerts = db_logger.get_recent_alerts(limit=limit)
         
         # Format alerts for JSON response
-        formatted_alerts = []
-        for alert in alerts:
-            created_at = alert.get('created_at')
-            if isinstance(created_at, datetime):
-                created_at = created_at.isoformat()
-            
-            formatted_alerts.append({
-                'id': alert.get('id'),
-                'camera': alert.get('camera'),
-                'timestamp': alert.get('timestamp'),
-                'alert_handle': alert.get('alert_handle'),
-                'gif_url': alert.get('gif_url'),
-                'jpeg_urls': alert.get('jpeg_urls', []),
-                'jpeg_count': alert.get('jpeg_count', 0),
-                'success': alert.get('success', False),
-                'error_message': alert.get('error_message'),
-                'debug_mode': alert.get('debug_mode', False),
-                'created_at': created_at
-            })
-        
+        formatted_alerts = [format_alert_for_json(alert) for alert in alerts]
         return jsonify({'alerts': formatted_alerts})
     
     except Exception as e:
@@ -158,6 +162,32 @@ def get_stats():
     except Exception as e:
         print(f"❌ API Error (get_stats): {e}")
         return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/notify', methods=['POST'])
+def notify():
+    """
+    Endpoint to be called by the alert handler when a new alert is created.
+    It broadcasts the new alert data to all connected clients.
+    """
+    if not db_logger:
+        return jsonify({'error': 'Database not connected'}), 500
+
+    # For now, just fetch the latest alert from the database.
+    # In the future, this could take an alert_id from the request body.
+    alerts = db_logger.get_recent_alerts(limit=1)
+    if not alerts:
+        return jsonify({'status': 'no new alerts found'}), 200
+
+    new_alert = alerts[0]
+
+    # Format the alert for JSON response
+    formatted_alert = format_alert_for_json(new_alert)
+
+    # Broadcast the new alert to all clients
+    socketio.emit('new_alert', formatted_alert)
+
+    return jsonify({'status': 'notification sent'})
 
 @app.route('/api/health')
 def health_check():
@@ -183,7 +213,7 @@ if __name__ == '__main__':
     if init_database():
         print(f"🌐 Starting web server on http://localhost:{Config.PORT}")
         print(f"🌐 Also accessible on http://{Config.HOST}:{Config.PORT} (all interfaces)")
-        app.run(debug=Config.DEBUG, host=Config.HOST, port=Config.PORT)
+        socketio.run(app, debug=Config.DEBUG, host=Config.HOST, port=Config.PORT)
     else:
         print("❌ Failed to start - database connection required")
         print("\nTroubleshooting:")
