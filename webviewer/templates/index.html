@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Iris Alert Logs</title>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
     <style>
         :root {
             --bg-color: #f5f5f5;
@@ -92,6 +93,19 @@
             background: rgba(255,255,255,0.1);
         }
 
+        .header-link {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            border: 1px solid rgba(255,255,255,0.3);
+            transition: all 0.3s ease;
+        }
+
+        .header-link:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
         .stats-bar {
             background: var(--primary-dark);
             color: white;
@@ -114,12 +128,17 @@
             gap: 0.5rem;
         }
 
-        .camera-filter select {
+        .camera-filter select, .camera-filter input {
             padding: 0.5rem;
             border: 1px solid var(--border-color);
             border-radius: 4px;
             background: var(--surface-color);
             color: var(--text-color);
+            font-size: 1rem;
+        }
+
+        .camera-filter input {
+            width: 250px;
         }
 
         .main-container {
@@ -329,6 +348,13 @@
     <div class="header">
         <h1>🎥 Blue Iris Alert Logs</h1>
         <div class="header-controls">
+            {% if user %}
+                <span style="color: white; margin-right: 1rem;">Welcome, {{ user }}</span>
+                <a href="/dashboard" class="header-link">📊 Dashboard</a>
+                <a href="/logout" class="header-link">Logout</a>
+            {% else %}
+                <a href="/login" class="header-link">Login</a>
+            {% endif %}
             <button class="dark-mode-toggle" onclick="toggleDarkMode()" id="themeToggle">
                 🌙 Dark Mode
             </button>
@@ -342,9 +368,21 @@
     <div class="controls-bar">
         <div class="camera-filter">
             <label for="cameraSelect">Camera:</label>
-            <select id="cameraSelect" onchange="filterByCamera()">
+            <select id="cameraSelect" onchange="applyFilters()">
                 <option value="">All Cameras</option>
             </select>
+        </div>
+        <div class="camera-filter">
+            <label for="statusSelect">Status:</label>
+            <select id="statusSelect" onchange="applyFilters()">
+                <option value="">All</option>
+                <option value="success">Success</option>
+                <option value="failure">Failure</option>
+            </select>
+        </div>
+        <div class="camera-filter">
+            <label for="searchInput">Search:</label>
+            <input type="text" id="searchInput" onkeyup="applyFilters()" placeholder="Search camera, handle, error...">
         </div>
     </div>
 
@@ -387,7 +425,34 @@
         document.addEventListener('DOMContentLoaded', function() {
             loadAlerts();
             loadStats();
+
+            // Connect to Socket.IO
+            const socket = io();
+
+            socket.on('connect', () => {
+                console.log('Connected to server via Socket.IO');
+            });
+
+            socket.on('new_alert', (alert) => {
+                console.log('New alert received:', alert);
+                handleNewAlert(alert);
+            });
         });
+
+        function handleNewAlert(alert) {
+            // Add to the start of the alerts array
+            currentAlerts.unshift(alert);
+
+            // If we have more than 50 alerts, remove the oldest one
+            if (currentAlerts.length > 50) {
+                currentAlerts.pop();
+            }
+
+            // Update UI
+            updateCameraFilter();
+            applyFilters(); // This will re-render the list
+            loadStats(); // Refresh stats
+        }
 
         function toggleDarkMode() {
             const currentTheme = document.documentElement.getAttribute('data-theme');
@@ -415,7 +480,7 @@
                 
                 currentAlerts = data.alerts;
                 updateCameraFilter();
-                filterByCamera();
+                applyFilters();
             } catch (error) {
                 document.getElementById('alertsList').innerHTML = 
                     `<div class="error">Failed to load alerts: ${error.message}</div>`;
@@ -442,15 +507,35 @@
             });
         }
 
-        function filterByCamera() {
+        function applyFilters() {
             const selectedCamera = document.getElementById('cameraSelect').value;
+            const selectedStatus = document.getElementById('statusSelect').value;
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             
-            if (!selectedCamera) {
-                filteredAlerts = [...currentAlerts];
-            } else {
-                filteredAlerts = currentAlerts.filter(alert => alert.camera === selectedCamera);
+            let alertsToFilter = [...currentAlerts];
+
+            // Filter by camera
+            if (selectedCamera) {
+                alertsToFilter = alertsToFilter.filter(alert => alert.camera === selectedCamera);
+            }
+
+            // Filter by status
+            if (selectedStatus) {
+                const isSuccess = selectedStatus === 'success';
+                alertsToFilter = alertsToFilter.filter(alert => alert.success === isSuccess);
             }
             
+            // Filter by search term
+            if (searchTerm) {
+                alertsToFilter = alertsToFilter.filter(alert => {
+                    const cameraMatch = alert.camera.toLowerCase().includes(searchTerm);
+                    const handleMatch = alert.alert_handle ? alert.alert_handle.toLowerCase().includes(searchTerm) : false;
+                    const errorMatch = alert.error_message ? alert.error_message.toLowerCase().includes(searchTerm) : false;
+                    return cameraMatch || handleMatch || errorMatch;
+                });
+            }
+
+            filteredAlerts = alertsToFilter;
             renderAlerts();
         }
 
@@ -613,11 +698,11 @@
             }
         }
 
-        // Auto-refresh every 30 seconds
-        setInterval(() => {
-            loadAlerts();
-            loadStats();
-        }, 30000);
+        // No longer needed with Socket.IO
+        // setInterval(() => {
+        //     loadAlerts();
+        //     loadStats();
+        // }, 30000);
     </script>
 </body>
 </html>

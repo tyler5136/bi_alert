@@ -51,8 +51,12 @@ class BlueIrisAlertHandler:
         load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
         self.artifact_path = Path(__file__).with_name("artifact.json")
         
+        # Use a project-relative path for logs
+        log_dir = Path(__file__).parent / "logs"
+        log_dir.mkdir(parents=True, exist_ok=True)
+
         today = datetime.now().strftime("%Y-%m-%d")
-        self.log_path = rf"C:\scripts\logs\log{today}.txt"
+        self.log_path = log_dir / f"log{today}.txt"
     
     def _setup_logging(self):
         """Setup logging."""
