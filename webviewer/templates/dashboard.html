@@ -60,7 +60,15 @@
 </head>
 <body>
     <div class="header">
-        <h1>📊 Alerts Dashboard</h1>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h1>📊 Alerts Dashboard</h1>
+            <div>
+                {% if user %}
+                    <span style="margin-right: 1rem;">Welcome, {{ user }}</span>
+                    <a href="/logout" style="text-decoration: underline;">Logout</a>
+                {% endif %}
+            </div>
+        </div>
         <a href="/">&larr; Back to Alerts List</a>
     </div>
 

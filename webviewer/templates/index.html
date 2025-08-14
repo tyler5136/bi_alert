@@ -348,7 +348,13 @@
     <div class="header">
         <h1>🎥 Blue Iris Alert Logs</h1>
         <div class="header-controls">
-            <a href="/dashboard" class="header-link">📊 Dashboard</a>
+            {% if user %}
+                <span style="color: white; margin-right: 1rem;">Welcome, {{ user }}</span>
+                <a href="/dashboard" class="header-link">📊 Dashboard</a>
+                <a href="/logout" class="header-link">Logout</a>
+            {% else %}
+                <a href="/login" class="header-link">Login</a>
+            {% endif %}
             <button class="dark-mode-toggle" onclick="toggleDarkMode()" id="themeToggle">
                 🌙 Dark Mode
             </button>

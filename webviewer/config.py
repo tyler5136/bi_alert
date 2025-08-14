@@ -30,6 +30,22 @@ class Config:
     # 1Password Configuration
     VAULT_NAME = "SecretsMGMT"
     SECRETS_ITEM = "bi_alert_handler_secrets"
+
+    # --- Authentication Configuration ---
+    # Flask secret key is required for session management (and OIDC)
+    SECRET_KEY = os.getenv("FLASK_SECRET_KEY", "super-secret-key-that-you-should-change")
+
+    # OIDC Authentication Settings
+    # For security, OIDC client secrets are stored in a separate JSON file.
+    # This file should be secured and not committed to version control.
+    OIDC_CLIENT_SECRETS_FILE = os.path.join(Path(__file__).parent, "client_secrets.json")
+
+    # In a production environment with HTTPS, this should be True
+    OIDC_COOKIE_SECURE = os.getenv("OIDC_COOKIE_SECURE", "False").lower() == "true"
+
+    OIDC_CALLBACK_ROUTE = "/oidc/callback"
+    OIDC_SCOPES = ["openid", "email", "profile"]
+    OIDC_ID_TOKEN_COOKIE_NAME = "oidc_token"
     
     @classmethod
     def get_env_search_paths(cls):
