@@ -9,7 +9,7 @@ try:
 except ImportError:
     print("⚠️ config.py not found, using default configuration")
     class Config:
-        MODULES_PATH = Path(__file__).parent.parent
+        SCRIPTS_BASE_DIR = Path(__file__).parent.parent
         DEBUG = False
         HOST = '0.0.0.0'
         PORT = 5050
@@ -18,24 +18,23 @@ except ImportError:
         VAULT_NAME = "SecretsMGMT"
         SECRETS_ITEM = "bi_alert_handler_secrets"
 
-# Add modules directory to Python path for imports
-sys.path.insert(0, str(Config.MODULES_PATH))
+# Add scripts directory to Python path for imports
+sys.path.insert(0, str(Config.SCRIPTS_BASE_DIR))
 
 from flask import Flask, render_template, jsonify, request
-from flask_socketio import SocketIO
 from datetime import datetime
 from dotenv import load_dotenv
 
-# Import from configured modules directory
+# Import from configured scripts directory
 try:
     from alert_helper import OnePasswordHelper
     from database_helper import DatabaseLogger, DatabaseConfig
 except ImportError as e:
-    print(f"❌ Failed to import required modules from {Config.MODULES_PATH}")
+    print(f"❌ Failed to import required modules from {Config.SCRIPTS_BASE_DIR}")
     print(f"Error: {e}")
     print("\nTroubleshooting:")
-    print("1. Make sure alert_helper.py and database_helper.py exist in the modules directory")
-    print("2. Check the MODULES_PATH path in config.py")
+    print("1. Make sure alert_helper.py and database_helper.py exist in the scripts directory")
+    print("2. Check the SCRIPTS_BASE_DIR path in config.py")
     print("3. Verify the directory structure is correct")
     if hasattr(Config, 'validate_paths'):
         issues = Config.validate_paths()
@@ -51,7 +50,7 @@ if hasattr(Config, 'get_env_search_paths'):
 else:
     env_paths = [
         Path(__file__).parent / ".env",
-        Config.MODULES_PATH / ".env",
+        Config.SCRIPTS_BASE_DIR / ".env",
         Path.cwd() / ".env"
     ]
 
@@ -69,7 +68,6 @@ if not env_loaded:
 
 app = Flask(__name__)
 app.config['DEBUG'] = Config.DEBUG
-socketio = SocketIO(app)
 
 # Global database logger
 db_logger = None
@@ -108,33 +106,6 @@ def index():
     """Main page."""
     return render_template('index.html')
 
-
-@app.route('/dashboard')
-def dashboard():
-    """Dashboard page."""
-    return render_template('dashboard.html')
-
-def format_alert_for_json(alert):
-    """Helper function to format an alert dictionary for JSON serialization."""
-    created_at = alert.get('created_at')
-    if isinstance(created_at, datetime):
-        created_at = created_at.isoformat()
-
-    return {
-        'id': alert.get('id'),
-        'camera': alert.get('camera'),
-        'timestamp': alert.get('timestamp'),
-        'alert_handle': alert.get('alert_handle'),
-        'gif_url': alert.get('gif_url'),
-        'jpeg_urls': alert.get('jpeg_urls', []),
-        'jpeg_count': alert.get('jpeg_count', 0),
-        'success': alert.get('success', False),
-        'error_message': alert.get('error_message'),
-        'debug_mode': alert.get('debug_mode', False),
-        'created_at': created_at
-    }
-
-
 @app.route('/api/alerts')
 def get_alerts():
     """API endpoint to get alert logs."""
@@ -148,7 +119,26 @@ def get_alerts():
         alerts = db_logger.get_recent_alerts(limit=limit)
         
         # Format alerts for JSON response
-        formatted_alerts = [format_alert_for_json(alert) for alert in alerts]
+        formatted_alerts = []
+        for alert in alerts:
+            created_at = alert.get('created_at')
+            if isinstance(created_at, datetime):
+                created_at = created_at.isoformat()
+            
+            formatted_alerts.append({
+                'id': alert.get('id'),
+                'camera': alert.get('camera'),
+                'timestamp': alert.get('timestamp'),
+                'alert_handle': alert.get('alert_handle'),
+                'gif_url': alert.get('gif_url'),
+                'jpeg_urls': alert.get('jpeg_urls', []),
+                'jpeg_count': alert.get('jpeg_count', 0),
+                'success': alert.get('success', False),
+                'error_message': alert.get('error_message'),
+                'debug_mode': alert.get('debug_mode', False),
+                'created_at': created_at
+            })
+        
         return jsonify({'alerts': formatted_alerts})
     
     except Exception as e:
@@ -169,39 +159,13 @@ def get_stats():
         print(f"❌ API Error (get_stats): {e}")
         return jsonify({'error': str(e)}), 500
 
-
-@app.route('/api/notify', methods=['POST'])
-def notify():
-    """
-    Endpoint to be called by the alert handler when a new alert is created.
-    It broadcasts the new alert data to all connected clients.
-    """
-    if not db_logger:
-        return jsonify({'error': 'Database not connected'}), 500
-
-    # For now, just fetch the latest alert from the database.
-    # In the future, this could take an alert_id from the request body.
-    alerts = db_logger.get_recent_alerts(limit=1)
-    if not alerts:
-        return jsonify({'status': 'no new alerts found'}), 200
-
-    new_alert = alerts[0]
-
-    # Format the alert for JSON response
-    formatted_alert = format_alert_for_json(new_alert)
-
-    # Broadcast the new alert to all clients
-    socketio.emit('new_alert', formatted_alert)
-
-    return jsonify({'status': 'notification sent'})
-
 @app.route('/api/health')
 def health_check():
     """Health check endpoint."""
     return jsonify({
         'status': 'ok',
         'database_connected': db_logger is not None,
-        'modules_path': str(Config.MODULES_PATH),
+        'scripts_path': str(Config.SCRIPTS_BASE_DIR),
         'app_path': str(Path(__file__).parent),
         'config_valid': len(Config.validate_paths()) == 0 if hasattr(Config, 'validate_paths') else True
     })
@@ -213,13 +177,13 @@ if __name__ == '__main__':
     if hasattr(Config, 'print_config_info'):
         Config.print_config_info()
     else:
-        print(f"📂 Modules directory: {Config.MODULES_PATH}")
+        print(f"📂 Scripts directory: {Config.SCRIPTS_BASE_DIR}")
         print(f"📂 App directory: {Path(__file__).parent}")
     
     if init_database():
         print(f"🌐 Starting web server on http://localhost:{Config.PORT}")
         print(f"🌐 Also accessible on http://{Config.HOST}:{Config.PORT} (all interfaces)")
-        socketio.run(app, debug=Config.DEBUG, host=Config.HOST, port=Config.PORT)
+        app.run(debug=Config.DEBUG, host=Config.HOST, port=Config.PORT)
     else:
         print("❌ Failed to start - database connection required")
         print("\nTroubleshooting:")

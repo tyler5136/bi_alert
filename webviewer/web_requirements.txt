@@ -3,7 +3,6 @@
 
 # Web Framework
 Flask>=3.0.0
-Flask-SocketIO>=5.3.6
 
 # Core Dependencies (shared with main alert handler)
 requests>=2.31.0
@@ -16,7 +15,7 @@ minio>=7.1.0
 psycopg2-binary>=2.9.7
 
 # Web Server (optional - for production deployment)
-gunicorn>=21.2.0  # Recommended for production WSGI server
+# gunicorn>=21.2.0  # Uncomment for production WSGI server
 # waitress>=2.1.2   # Alternative Windows-friendly WSGI server
 
 # Development Tools (optional)
