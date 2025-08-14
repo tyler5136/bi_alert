@@ -23,3 +23,4 @@ Werkzeug appears to be used in a production deployment. Consider switching to a 
 Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
  * Debugger is active!
  * Debugger PIN: 610-203-682
+127.0.0.1 - - [14/Aug/2025 14:40:17] "GET /dashboard HTTP/1.1" 200 -

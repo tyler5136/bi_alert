@@ -93,6 +93,19 @@
             background: rgba(255,255,255,0.1);
         }
 
+        .header-link {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            border: 1px solid rgba(255,255,255,0.3);
+            transition: all 0.3s ease;
+        }
+
+        .header-link:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
         .stats-bar {
             background: var(--primary-dark);
             color: white;
@@ -115,12 +128,17 @@
             gap: 0.5rem;
         }
 
-        .camera-filter select {
+        .camera-filter select, .camera-filter input {
             padding: 0.5rem;
             border: 1px solid var(--border-color);
             border-radius: 4px;
             background: var(--surface-color);
             color: var(--text-color);
+            font-size: 1rem;
+        }
+
+        .camera-filter input {
+            width: 250px;
         }
 
         .main-container {
@@ -330,6 +348,7 @@
     <div class="header">
         <h1>🎥 Blue Iris Alert Logs</h1>
         <div class="header-controls">
+            <a href="/dashboard" class="header-link">📊 Dashboard</a>
             <button class="dark-mode-toggle" onclick="toggleDarkMode()" id="themeToggle">
                 🌙 Dark Mode
             </button>
@@ -343,9 +362,21 @@
     <div class="controls-bar">
         <div class="camera-filter">
             <label for="cameraSelect">Camera:</label>
-            <select id="cameraSelect" onchange="filterByCamera()">
+            <select id="cameraSelect" onchange="applyFilters()">
                 <option value="">All Cameras</option>
             </select>
+        </div>
+        <div class="camera-filter">
+            <label for="statusSelect">Status:</label>
+            <select id="statusSelect" onchange="applyFilters()">
+                <option value="">All</option>
+                <option value="success">Success</option>
+                <option value="failure">Failure</option>
+            </select>
+        </div>
+        <div class="camera-filter">
+            <label for="searchInput">Search:</label>
+            <input type="text" id="searchInput" onkeyup="applyFilters()" placeholder="Search camera, handle, error...">
         </div>
     </div>
 
@@ -413,7 +444,7 @@
 
             // Update UI
             updateCameraFilter();
-            filterByCamera(); // This will re-render the list
+            applyFilters(); // This will re-render the list
             loadStats(); // Refresh stats
         }
 
@@ -443,7 +474,7 @@
                 
                 currentAlerts = data.alerts;
                 updateCameraFilter();
-                filterByCamera();
+                applyFilters();
             } catch (error) {
                 document.getElementById('alertsList').innerHTML = 
                     `<div class="error">Failed to load alerts: ${error.message}</div>`;
@@ -470,15 +501,35 @@
             });
         }
 
-        function filterByCamera() {
+        function applyFilters() {
             const selectedCamera = document.getElementById('cameraSelect').value;
+            const selectedStatus = document.getElementById('statusSelect').value;
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             
-            if (!selectedCamera) {
-                filteredAlerts = [...currentAlerts];
-            } else {
-                filteredAlerts = currentAlerts.filter(alert => alert.camera === selectedCamera);
+            let alertsToFilter = [...currentAlerts];
+
+            // Filter by camera
+            if (selectedCamera) {
+                alertsToFilter = alertsToFilter.filter(alert => alert.camera === selectedCamera);
+            }
+
+            // Filter by status
+            if (selectedStatus) {
+                const isSuccess = selectedStatus === 'success';
+                alertsToFilter = alertsToFilter.filter(alert => alert.success === isSuccess);
             }
             
+            // Filter by search term
+            if (searchTerm) {
+                alertsToFilter = alertsToFilter.filter(alert => {
+                    const cameraMatch = alert.camera.toLowerCase().includes(searchTerm);
+                    const handleMatch = alert.alert_handle ? alert.alert_handle.toLowerCase().includes(searchTerm) : false;
+                    const errorMatch = alert.error_message ? alert.error_message.toLowerCase().includes(searchTerm) : false;
+                    return cameraMatch || handleMatch || errorMatch;
+                });
+            }
+
+            filteredAlerts = alertsToFilter;
             renderAlerts();
         }
 

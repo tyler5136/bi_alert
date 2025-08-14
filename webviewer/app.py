@@ -108,6 +108,12 @@ def index():
     """Main page."""
     return render_template('index.html')
 
+
+@app.route('/dashboard')
+def dashboard():
+    """Dashboard page."""
+    return render_template('dashboard.html')
+
 def format_alert_for_json(alert):
     """Helper function to format an alert dictionary for JSON serialization."""
     created_at = alert.get('created_at')
