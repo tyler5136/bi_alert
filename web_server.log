@@ -2,11 +2,11 @@ Werkzeug appears to be used in a production deployment. Consider switching to a 
 ✅ Loaded environment from: /app/webviewer/.env
 🚀 Starting Blue Iris Alert Logs Web Interface...
 📋 Web Interface Configuration:
-   Scripts Directory: /app
-   App Directory: /app/webviewer
-   Host: 0.0.0.0:5050
-   Debug Mode: True
-   Auto-refresh: 30s
+   Modules Directory: /app
+   App Directory:     /app/webviewer
+   Host:              0.0.0.0:5050
+   Debug Mode:        True
+   Auto-refresh:      30s
 ✅ All paths validated successfully
 🧪 RUNNING IN TESTING MODE
 ✅ Skipping database connection for testing. App will start.
@@ -23,4 +23,3 @@ Werkzeug appears to be used in a production deployment. Consider switching to a 
 Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
  * Debugger is active!
  * Debugger PIN: 610-203-682
-127.0.0.1 - - [13/Aug/2025 21:35:34] "[35m[1mPOST /api/notify HTTP/1.1[0m" 500 -

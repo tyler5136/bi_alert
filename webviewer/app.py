@@ -9,7 +9,7 @@ try:
 except ImportError:
     print("⚠️ config.py not found, using default configuration")
     class Config:
-        SCRIPTS_BASE_DIR = Path(__file__).parent.parent
+        MODULES_PATH = Path(__file__).parent.parent
         DEBUG = False
         HOST = '0.0.0.0'
         PORT = 5050
@@ -18,24 +18,24 @@ except ImportError:
         VAULT_NAME = "SecretsMGMT"
         SECRETS_ITEM = "bi_alert_handler_secrets"
 
-# Add scripts directory to Python path for imports
-sys.path.insert(0, str(Config.SCRIPTS_BASE_DIR))
+# Add modules directory to Python path for imports
+sys.path.insert(0, str(Config.MODULES_PATH))
 
 from flask import Flask, render_template, jsonify, request
 from flask_socketio import SocketIO
 from datetime import datetime
 from dotenv import load_dotenv
 
-# Import from configured scripts directory
+# Import from configured modules directory
 try:
     from alert_helper import OnePasswordHelper
     from database_helper import DatabaseLogger, DatabaseConfig
 except ImportError as e:
-    print(f"❌ Failed to import required modules from {Config.SCRIPTS_BASE_DIR}")
+    print(f"❌ Failed to import required modules from {Config.MODULES_PATH}")
     print(f"Error: {e}")
     print("\nTroubleshooting:")
-    print("1. Make sure alert_helper.py and database_helper.py exist in the scripts directory")
-    print("2. Check the SCRIPTS_BASE_DIR path in config.py")
+    print("1. Make sure alert_helper.py and database_helper.py exist in the modules directory")
+    print("2. Check the MODULES_PATH path in config.py")
     print("3. Verify the directory structure is correct")
     if hasattr(Config, 'validate_paths'):
         issues = Config.validate_paths()
@@ -51,7 +51,7 @@ if hasattr(Config, 'get_env_search_paths'):
 else:
     env_paths = [
         Path(__file__).parent / ".env",
-        Config.SCRIPTS_BASE_DIR / ".env",
+        Config.MODULES_PATH / ".env",
         Path.cwd() / ".env"
     ]
 
@@ -195,7 +195,7 @@ def health_check():
     return jsonify({
         'status': 'ok',
         'database_connected': db_logger is not None,
-        'scripts_path': str(Config.SCRIPTS_BASE_DIR),
+        'modules_path': str(Config.MODULES_PATH),
         'app_path': str(Path(__file__).parent),
         'config_valid': len(Config.validate_paths()) == 0 if hasattr(Config, 'validate_paths') else True
     })
@@ -207,7 +207,7 @@ if __name__ == '__main__':
     if hasattr(Config, 'print_config_info'):
         Config.print_config_info()
     else:
-        print(f"📂 Scripts directory: {Config.SCRIPTS_BASE_DIR}")
+        print(f"📂 Modules directory: {Config.MODULES_PATH}")
         print(f"📂 App directory: {Path(__file__).parent}")
     
     if init_database():

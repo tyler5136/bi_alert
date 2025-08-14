@@ -1,16 +1,19 @@
 # config.py - Configuration for Blue Iris Alert Logs Web Interface
+import os
 from pathlib import Path
 
 class Config:
     """Configuration settings for the web application."""
     
-    # Path Configuration
-    # Change this if you move the webviewer or scripts to different locations
-    
-    # Default: Parent directory of webviewer (C:\scripts if webviewer is in C:\scripts\webviewer)
-    SCRIPTS_BASE_DIR = Path(__file__).parent.parent
-    
-    # Alternative configurations can be set here if needed.
+    # --- Path Configuration ---
+    # The webviewer needs to know where to find the shared Python modules
+    # (e.g., alert_helper.py, database_helper.py).
+    #
+    # Set the MODULES_PATH environment variable to the absolute path of the
+    # directory containing these modules.
+    #
+    # If not set, it defaults to the parent directory of this `webviewer` folder.
+    MODULES_PATH = Path(os.getenv("MODULES_PATH", Path(__file__).parent.parent)).resolve()
     
     # Flask Configuration
     DEBUG = True
@@ -32,9 +35,9 @@ class Config:
     def get_env_search_paths(cls):
         """Get list of paths to search for .env file."""
         return [
-            Path(__file__).parent / ".env",          # webviewer/.env
-            cls.SCRIPTS_BASE_DIR / ".env",           # scripts/.env
-            Path.cwd() / ".env"                      # current working directory
+            Path(__file__).parent / ".env",  # webviewer/.env
+            cls.MODULES_PATH / ".env",       # modules_path/.env
+            Path.cwd() / ".env"              # current working directory
         ]
     
     @classmethod
@@ -42,14 +45,14 @@ class Config:
         """Validate that required paths exist."""
         issues = []
         
-        if not cls.SCRIPTS_BASE_DIR.exists():
-            issues.append(f"Scripts directory does not exist: {cls.SCRIPTS_BASE_DIR}")
+        if not cls.MODULES_PATH.exists():
+            issues.append(f"Modules directory does not exist: {cls.MODULES_PATH}")
         
-        alert_helper = cls.SCRIPTS_BASE_DIR / "alert_helper.py"
+        alert_helper = cls.MODULES_PATH / "alert_helper.py"
         if not alert_helper.exists():
             issues.append(f"alert_helper.py not found: {alert_helper}")
         
-        database_helper = cls.SCRIPTS_BASE_DIR / "database_helper.py"
+        database_helper = cls.MODULES_PATH / "database_helper.py"
         if not database_helper.exists():
             issues.append(f"database_helper.py not found: {database_helper}")
         
@@ -59,11 +62,11 @@ class Config:
     def print_config_info(cls):
         """Print configuration information for debugging."""
         print("📋 Web Interface Configuration:")
-        print(f"   Scripts Directory: {cls.SCRIPTS_BASE_DIR}")
-        print(f"   App Directory: {Path(__file__).parent}")
-        print(f"   Host: {cls.HOST}:{cls.PORT}")
-        print(f"   Debug Mode: {cls.DEBUG}")
-        print(f"   Auto-refresh: {cls.AUTO_REFRESH_INTERVAL}s")
+        print(f"   Modules Directory: {cls.MODULES_PATH}")
+        print(f"   App Directory:     {Path(__file__).parent}")
+        print(f"   Host:              {cls.HOST}:{cls.PORT}")
+        print(f"   Debug Mode:        {cls.DEBUG}")
+        print(f"   Auto-refresh:      {cls.AUTO_REFRESH_INTERVAL}s")
         
         # Validate paths
         issues = cls.validate_paths()
